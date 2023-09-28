@@ -45,24 +45,6 @@ The JS Basics section delves into JavaScript, a powerful programming language th
 
 For guidance and additional learning materials on JavaScript, refer to [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and [FreeCodeCamp JavaScript Videos](https://www.freecodecamp.org/).
 
-## How to Use This Repository
-
-1. Clone or download this repository to your local machine using the following command:
-
-   ```
-   git clone https://github.com/yourusername/LearningFrontEnd.git
-   ```
-
-2. Navigate to the section you want to start with (HTML Basics, CSS Basics, or JS Basics).
-
-3. Explore the individual project folders, and start with the first project to gradually build your skills.
-
-4. Refer to the provided project README files for specific instructions and guidance.
-
-5. If you encounter any difficulties or need further explanations, consult the [MDN Web Docs](https://developer.mozilla.org/) or [FreeCodeCamp](https://www.freecodecamp.org/) video resources mentioned above.
-
-6. As you complete each project, feel free to commit your changes to your own fork of this repository or keep a personal log of your progress.
-
 ## Contributing
 
 If you have suggestions for improvements or would like to contribute additional learning resources, please feel free to open an issue or submit a pull request. Your contributions are welcome and can help others in their learning journey.
