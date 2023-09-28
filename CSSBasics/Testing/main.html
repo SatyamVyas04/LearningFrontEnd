@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			li {
+				box-sizing: border-box;
+				font-size: 1.5rem;
+				margin: 2px 2px;
+				padding: 1em 1em;
+				list-style-type: circle;
+			}
+			li[class] {
+				background-color: rgb(190, 255, 190);
+			}
+			li[class="a"] {
+				background-color: aquamarine;
+			}
+			li[class~="a"] {
+				font-style: italic;
+			}
+			li[class|="a"] {
+				border: 3px dotted red;
+				margin: 2px 2px;
+			}
+			li[class^="a"] {
+				text-decoration: underline;
+				text-decoration-style: wavy;
+				text-decoration-color: black;
+			}
+			li[class$="-town"] {
+				outline: 0.3em double black;
+				outline-offset: -5px;
+			}
+			li[class*="t"] {
+				text-align: right;
+			}
+			li[class*="a" i] {
+				color: cornflowerblue;
+			}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li>Item1</li>
+			<li class="a">Item2</li>
+			<li class="a-test basic">Item3</li>
+			<li class="b a">Item4</li>
+			<li class="b-town">Item5</li>
+			<li class="A">test</li>
+		</ul>
+	</body>
+</html>

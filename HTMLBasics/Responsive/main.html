@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ResponsiveIMGS</title>
+		<link rel="stylesheet" href="main.css" />
+	</head>
+	<body>
+		<h3>Resolution Switching</h3>
+		<img
+			class="center1"
+			src="Images/Img1_640px.jpg"
+			srcset="
+				Images/Img1_640px.jpg   640w,
+				Images/Img2_1280px.jpg 1280w,
+				Images/Img3_1920px.jpg 1920w,
+				Images/Img4_2400px.jpg 2400w
+			"
+			alt="F in the Chat"
+		/>
+		<br />
+		<h3>Art Direction</h3>
+		<picture>
+			<source
+				media="(max-width: 649px)"
+				srcset="Images/Panda_closeup.jpg"
+			/>
+			<source
+				media="(min-width: 650px)"
+				srcset="Images/Panda_640px.jpg"
+			/>
+			<img
+				class="center2"
+				src="Images/Panda_640px.jpg"
+				alt="F in the Chat"
+			/>
+		</picture>
+	</body>
+</html>

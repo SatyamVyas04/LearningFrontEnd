@@ -1,0 +1,109 @@
+/* General setup */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display&display=swap');
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    font-family: "Playfair Display", monospace;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+  h1, h2{
+    font-family: "EB Garamond";
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+  } 
+  body{
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+  }
+  header{
+    text-align: center;
+  }
+  section h2+p{
+    text-indent: 40px;
+  }
+  a:link, a:focus, a:visited, a:hover{
+    color: #a66;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  a:focus{
+    outline: none;
+  }
+  a:active{
+    color: white;
+    background-color: #a66;
+    text-decoration: none;
+  }
+  a[href^="http"]{
+    background-image: url(extlink.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 16px 16px;
+    padding-right: 18px;
+  }
+
+  .DesignerNav li a {
+    display: block;
+    padding: 15px;
+  }
+
+  .DesignerNav li{
+    list-style: none;
+    border: 2px solid #a66;
+    margin: 20px 0 20px 0;
+    text-align: center;
+  }
+
+  .DesignerNav li:hover{
+    background-color: #a66;
+  }
+
+  .DesignerNav li:hover a{
+    color: white;
+    font-style:oblique;
+  }
+  
+  .DesignerNav a:link, .DesignerNav a:visited, .DesignerNav a:hover, .DesignerNav a:active{
+    text-decoration: none;
+  }

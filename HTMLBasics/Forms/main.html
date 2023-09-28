@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Forms</title>
+	</head>
+	<body>
+		<div id="form1">
+			<form>
+				<div id="textinput">
+					<label for="text1">Enter your Name: </label>
+					<input
+						type="text"
+						name="text"
+						id="text1"
+						placeholder="Name..."
+					/>
+				</div>
+				<div id="radio">
+					<fieldset>
+						<legend>Gender</legend>
+						<input type="radio" name="radio" id="radio1" />
+						<label for="radio1">Male</label>
+						<input type="radio" name="radio" id="radio2" />
+						<label for="radio2">Female</label>
+						<input type="radio" name="radio" id="radio3" />
+						<label for="radio3">Others</label>
+					</fieldset>
+				</div>
+				<div id="checkbox">
+					<fieldset>
+						<legend>Courses you want to apply for</legend>
+						<input type="checkbox" name="checkbox" id="checkbox1" />
+						<label for="checkbox1">FrontEnd</label>
+						<input type="checkbox" name="checkbox" id="checkbox2" />
+						<label for="checkbox2">BackEnd</label>
+						<input type="checkbox" name="checkbox" id="checkbox3" />
+						<label for="checkbox3">FullStack</label>
+					</fieldset>
+				</div>
+				<div id="checkbox">
+					<fieldset>
+						<legend>What color is your Bugatti?</legend>
+						<input type="color" name="color" id="color1" />
+					</fieldset>
+				</div>
+				<div>
+					<input type="submit" value="Submit">
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

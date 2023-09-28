@@ -1,0 +1,74 @@
+body {
+	width: 75%;
+	margin: 2rem auto;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 1rem;
+}
+
+.counter {
+	text-align: center;
+	font-size: 32px;
+	margin: 0;
+}
+
+h3.counter {
+	padding: 2rem 1rem;
+	color: palevioletred;
+}
+
+h4.counter {
+	padding: 0 1rem 0 1rem;
+	font-size: 150px;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.buttons .but {
+	padding: 1rem 2rem;
+	font-size: 20px;
+	flex: 1 1 1;
+	width: 50%;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.but {
+	border: 0;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+		rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+	border-radius: 1rem;
+}
+
+.but:hover {
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: 100ms ease-in;
+    color: white;
+    scale: 1.05;
+}
+
+.but.incr {
+	background-color: #4caf50;
+}
+
+.but.reset {
+	background-color: #f44336;
+}
+
+.but.save {
+	background-color: #ff9800;
+}
+
+.entries {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 24px;
+	padding: 2rem 1rem 0 1rem;
+}
+
+#entries.entries{
+	padding: 0 1rem 2rem 1rem ;
+}

@@ -1,0 +1,14 @@
+h3{
+    text-align: center;
+    background-color: antiquewhite;
+}
+.center1{
+    display: block;
+    margin: 0 auto;
+    max-width: 75%;
+}
+.center2{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }

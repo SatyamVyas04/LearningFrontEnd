@@ -1,0 +1,72 @@
+
+body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Helvetica neue', Arial, 'sans serif';
+  font-size: 10px;
+  background-color: #ccc;
+}
+
+.card
+{
+  width: 35em;
+  height: 22em;
+  margin: 5em auto;
+  background-color: #9a8c98;
+  border: 0.2em solid black;
+  border-radius: 1.65em;
+  color: #edf2f4;
+}
+
+.card header
+{
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0.5), rgba(0,0,0,0));
+  border-radius: 1.5em 1.5em 0 0;
+}
+
+.card footer
+{
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.5));
+  border-radius: 0 0 1.5em 1.5em;
+}
+
+.card article img
+{
+  max-height: 100%;
+  float: right;
+}
+
+.card header, .card footer{
+  box-sizing: border-box;
+  height: 5em;
+  padding: 1em;
+}
+
+.card h2, .card p{
+  margin: 0;
+}
+
+.card article {
+  height: 12em;
+  box-sizing: border-box;
+  background-color: #2b2d42;
+  color: white;
+}
+
+.card h2{
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+.card footer p{
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.card article p{
+  padding: 1em;
+  font-weight: bolder;
+  text-align: justify;
+}

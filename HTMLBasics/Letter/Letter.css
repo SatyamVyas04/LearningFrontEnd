@@ -1,0 +1,32 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .Sender {
+    text-align: right;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  h3 {
+    background-color: antiquewhite;
+    font-size: 1.3em;
+  }
+  
+  p,ul,ol,dl,address {
+    font-size: 1.1em;
+  }
+  
+  p, li, dd, address {
+    line-height: 1.5;
+  }
+  dt {
+    background-color:darkgray;
+  }
+  #todaydate {
+    float: right;
+  }
+  

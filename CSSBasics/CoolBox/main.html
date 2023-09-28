@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Cool box</title>
+	</head>
+	<body>
+		<style>
+			html {
+				font-family: "Lucida Sans", "Lucida Sans Regular",
+					"Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+					sans-serif;
+				font-size: 10px;
+			}
+			div {
+				background: linear-gradient(
+					to bottom right,
+					rgba(0, 0, 0, 0) 30%,
+					rgba(0, 0, 0, 0.2),
+					rgba(0, 0, 0, 0.2)
+				);
+				background-color: palevioletred;
+				box-sizing: content-box;
+				width: 20rem;
+				height: 20rem;
+				margin: auto;
+				font-size: 2rem;
+				padding: 2rem;
+				text-transform: capitalize;
+				border-radius: 2rem;
+				border: 0.1rem solid black;
+				text-align: center;
+				line-height: 20rem;
+				color: white;
+				text-shadow: 0.5rem 0.5rem 0.5rem black;
+				font-weight: bold;
+				box-shadow: 5px 5px 5px black;
+			}
+			div:hover {
+				box-shadow: 10px 10px 5px black;
+				text-shadow: 0.5rem 0.5rem 0.5rem yellow;
+			}
+		</style>
+		<div>This is a cool box</div>
+	</body>
+</html>

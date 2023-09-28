@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Flex</title>
+		<style>
+			body {
+				font-family: monospace;
+				font-size: large;
+				margin: 0;
+			}
+			header h1 {
+				text-align: center;
+				background: #333;
+				color: whitesmoke;
+				margin-top: 0;
+				padding: 1em;
+			}
+			section article {
+				background-color: powderblue;
+				border: 1px solid black;
+				border-radius: 1rem;
+				box-shadow: 1px 1px 0.5em #333;
+			}
+			section article h3 {
+				background-color: #333;
+				color: white;
+				border-bottom: 2px solid black;
+				border-radius: 1rem 1rem 0 0;
+				margin: 0;
+				padding: 0.5em;
+				text-align: center;
+			}
+			section article p {
+				padding: 1em;
+			}
+			section article:nth-child(even) {
+				background-color: lightcoral;
+			}
+
+			/* FLEX starts here */
+			section {
+				display: flex;
+				gap: 1em;
+				padding: 1em;
+				margin: 2em;
+				box-shadow: 1px 1px 0.5em #333;
+				flex-wrap: wrap;
+				flex-direction: row;
+				/* flex-flow: row wrap; */
+				/* Border for reference */
+				/* justify-content: space-evenly; */
+			}
+			section article {
+				flex: 1 1 200px;
+				/* flex: [grow][shrink][basis]
+                grow == ratio of increase wrt others
+                shrink == decrease wrt others
+                basis == min size */
+				/* width: 200px; */
+				/* To study justify and align properties */
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Flexbox Example</h1>
+		</header>
+		<section>
+			<article>
+				<h3>First Article</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Veniam, delectus voluptate! Qui porro veniam adipisci?
+				</p>
+			</article>
+			<article>
+				<h3>Second Article</h3>
+				<p>
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+					Repudiandae, voluptatum?
+				</p>
+			</article>
+			<article>
+				<h3>Third Article</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Assumenda suscipit ipsum quis laboriosam corrupti illo
+					perferendis ipsa placeat veniam minus.
+				</p>
+			</article>
+			<article>
+				<h3>Fourth Article</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Error, ut? Impedit nemo commodi voluptatibus cupiditate,
+					iusto aliquam earum odit. Quam!
+				</p>
+			</article>
+			<article>
+				<h3>Fifth Article</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					Aspernatur velit inventore vero a at? Alias reprehenderit,
+					voluptas magni in et harum sed dolorum quas recusandae.
+				</p>
+			</article>
+			<article>
+				<h3>Sixth Article</h3>
+				<p>
+					Blanditiis, commodi totam? Aspernatur pariatur minus
+					inventore fuga nihil, repellat aperiam maiores tenetur
+					consectetur, eligendi, ab laboriosam officiis fugit culpa
+					ipsum quam magnam ipsam numquam.
+				</p>
+			</article>
+			<article>
+				<h3>Seventh Article</h3>
+				<p>
+					Dolor autem eligendi eos blanditiis est quibusdam, ab
+					recusandae vero ducimus obcaecati repellat alias praesentium
+					molestiae voluptatum saepe quidem! Inventore eaque quasi
+					asperiores suscipit odit.
+				</p>
+			</article>
+			<article>
+				<h3>Eight Article</h3>
+				<p>
+					Laudantium unde atque, omnis eveniet molestias quae, ab
+					quos, saepe itaque molestiae ducimus consectetur nam nostrum
+					est at commodi accusamus hic esse perspiciatis sed deserunt?
+				</p>
+			</article>
+			<article>
+				<h3>Ninth Article</h3>
+				<p>
+					Saepe, nihil nobis expedita quod inventore cupiditate
+					mollitia fuga maiores quae dolorem quibusdam, aliquam ea aut
+					quo a. Eaque pariatur vel recusandae veritatis voluptate
+					odit.
+				</p>
+			</article>
+		</section>
+	</body>
+</html>
