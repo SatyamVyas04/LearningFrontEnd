@@ -1,10 +1,19 @@
 # LearningFrontEnd
-<p>
+<p align='center'>
 <img src="https://user-images.githubusercontent.com/74038190/238200426-29fd6286-4e7b-4d6c-818f-c4765d5e39a9.gif" width='100'>
 <img src="https://user-images.githubusercontent.com/74038190/238200428-67f477ed-6624-42da-99f0-1a7b1a16eecb.gif" width='100'>
 <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width='100'>
 </p>
-Welcome to the LearningFrontEnd repository! This repository is designed to help you learn the basics of front-end web development, including HTML, CSS, and JavaScript. Whether you are a beginner or looking to refresh your skills, this repository provides a structured way to explore these fundamental technologies.
+
+## Prominent Projects in this Repo
+<h4 align='center'>HTML</h4>
+<p align="center">
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/HTMLBasics/Letter/Letter.html' ><img src="https://shorturl.at/gvx45" width="30%" /></a>
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/HTMLBasics/PlanetData/blank-template.html' ><img src="https://shorturl.at/gvx45" width="30%" /></a>
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/HTMLBasics/MozillaSplash/index.html' ><img src="https://shorturl.at/gvx45" width="30%" /></a>
+</p>
+
+---
 
 ## Repository Structure
 
@@ -21,9 +30,6 @@ The CSS Basics section focuses on Cascading Style Sheets (CSS), which is used to
 ### JS Basics
 
 The JS Basics section delves into JavaScript, a powerful programming language that adds interactivity and functionality to web pages. You'll find projects and exercises to help you understand JavaScript's core concepts. For guidance and additional learning materials on JavaScript, refer to [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and [FreeCodeCamp JavaScript Videos](https://www.freecodecamp.org/).
-
-## Prominent Projects in this Repo
-
 
 ## Contributing
 
