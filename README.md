@@ -5,12 +5,23 @@
 <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width='100'>
 </p>
 
-## Prominent Projects in this Repo
-<h4 align='center'>HTML</h4>
+<h3 align='center'>HTML</h3>
 <p align="center">
-  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/HTMLBasics/Letter/Letter.html' ><img src="https://shorturl.at/gvx45" width="30%" /></a>
-  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/HTMLBasics/PlanetData/blank-template.html' ><img src="https://shorturl.at/gvx45" width="30%" /></a>
-  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/HTMLBasics/MozillaSplash/index.html' ><img src="https://shorturl.at/gvx45" width="30%" /></a>
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/HTMLBasics/Letter/Letter.html' ><img src="https://drive.google.com/uc?export=view&id=113r9wecqjhXtHsUs-eFeTLWS0mS0equa" width="32%" /></a>
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/HTMLBasics/PlanetData/blank-template.html' ><img src="https://drive.google.com/uc?export=view&id=1LGftmIzk-zIhko5rWx0-ZO0ArZ-keWey" width="32%" /></a>
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/HTMLBasics/MozillaSplash/index.html' ><img src="https://drive.google.com/uc?export=view&id=1wteYfhd3_a84A9vrL_S3xZwRkgP0Tg53" width="32%" /></a>
+</p>
+
+<h3 align='center'>CSS</h3>
+<p align="center">
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/CSSBasics/TypesettingHomePage/main.html' ><img src="https://drive.google.com/uc?export=view&id=17KjLA6z_skV1Ae0anvDRfBczzPe_zkLW" width="32%" /></a>
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/CSSBasics/ResponsiveWebsite/home.html' ><img src="https://drive.google.com/uc?export=view&id=1jREwppTV4orBgtWAGISH4X72CJOZLyyh" width="32%" /></a>
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/CSSBasics/WebsiteAssignment/home.html' ><img src="https://drive.google.com/uc?export=view&id=1u_1FdWX32DDO7t1GiyOGdFO4iNibewkP" width="32%" /></a>
+</p>
+
+<h3 align='center'>JS</h3>
+<p align="center">
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/JSBasics/Counter/counter.html' ><img src="https://drive.google.com/uc?export=view&id=1lae46aV_Y5abTTZMVQ2ErjKa8HvH57Cf" width="32%" /></a>
 </p>
 
 ---
