@@ -31,7 +31,9 @@ h4.counter {
 	padding: 1rem 2rem;
 	font-size: 20px;
 	flex: 1 1 1;
+	align-items: center;
 	width: 50%;
+	height: calc(font-size) + 32px;
 	margin: 0 auto;
 	cursor: pointer;
 }
@@ -45,9 +47,9 @@ h4.counter {
 
 .but:hover {
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    transition: 100ms ease-in;
-    color: white;
-    scale: 1.05;
+	transition: 100ms ease-in;
+	color: white;
+	scale: 1.05;
 }
 
 .but.incr {
@@ -69,6 +71,33 @@ h4.counter {
 	padding: 2rem 1rem 0 1rem;
 }
 
-#entries.entries{
-	padding: 0 1rem 2rem 1rem ;
+#entries.entries {
+	padding: 0 1rem 2rem 1rem;
+}
+
+@media screen and (max-width: 550px) {
+	body {
+		width: 75%;
+	}
+
+	.buttons .but {
+		font-size: 0;
+	}
+
+	.buttons .but::after {
+		font-size: 30px;
+		font-weight: bolder;
+	}
+
+	.buttons .but.incr::after {
+		content: "\23EB";
+	}
+
+	.buttons .but.save::after {
+		content: "\1F4BE";
+	}
+
+	.buttons .but.reset::after {
+		content: "\1F501";
+	}
 }
