@@ -36,7 +36,9 @@
                 //     this.radius = radius;
                 // }
         // Direct Creation of Object --> 'new' keyword
-
+        // Formatted Strings
+            // Python: f"My name is {name}"
+            // JS:  `My name is ${name}`
     // JS Familiarity to Others
         // Loops: like C, Cpp, Java
         // Dynamic: like Python
@@ -44,4 +46,92 @@
         // Classes and 'init': like Java
         // Object creation: like Java ofc
 
-// Array Methods Start
+// Array Methods
+// concat()
+// indexOf()
+// join()
+// lastIndexOf()
+// pop()
+// push()
+// reverse()
+// shift()
+// slice()
+// sort()
+// splice()
+// toString()
+// unshift()
+// valueOf()
+
+// Math Methods
+// abs(x)
+// acos(x)
+// asin(x)
+// atan(x)
+// atan2(y,x)
+// ceil(x)
+// cos(x)
+// exp(x)
+// floor(x)
+// log(x)
+// max(x,y,z,...,n)
+// min(x,y,z,...,n)
+// pow(x,y)
+// random()
+// round(x)
+// sin(x)
+// sqrt(x)
+// tan(x)
+
+// String Methods
+// charAt()
+// charCodeAt()
+// concat()
+// fromCharCode()
+// indexOf()
+// lastIndexOf()
+// match()
+// replace()
+// search()
+// slice()
+// split()
+// substr()
+// substring()
+// toLowerCase()
+// toUpperCase()
+// valueOf()
+
+// String HTML Wrapper Methods
+// anchor()
+// big()
+// blink()
+// bold()
+// fixed()
+// fontcolor()
+// fontsize()
+// italics()
+// link()
+// small()
+// strike()
+// sub()
+// sup()
+
+// Global Properties
+// Infinity
+// NaN
+// undefined
+
+// Global Methods
+// decodeURI()
+// decodeURIComponent()
+// encodeURI()
+// encodeURIComponent()
+// eval()
+// isFinite()
+// isNaN()
+// Number()
+// parseFloat()
+// parseInt()
+// String()
+
+
+// and more...
