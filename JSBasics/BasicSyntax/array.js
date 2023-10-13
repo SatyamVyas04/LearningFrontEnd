@@ -1,0 +1,16 @@
+// Array Methods
+// concat()
+// indexOf()
+// join()
+// lastIndexOf()
+// pop()
+// push()
+// reverse()
+// shift()
+// slice()
+// sort()
+// splice()
+// toString()
+// unshift()
+// valueOf()
+
