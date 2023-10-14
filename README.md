@@ -25,7 +25,7 @@
 
 <h3 align='center'>Projects</h3>
 <p align="center">
-  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/QR+Code/index.html' ><img src="https://drive.google.com/uc?export=view&id=1lDapiaSMPCoY8Yzdxws9r7xe6thmrT_s" width="32%" /></a>
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/QR%20Code/index.html' ><img src="https://drive.google.com/uc?export=view&id=1lDapiaSMPCoY8Yzdxws9r7xe6thmrT_s" width="32%" /></a>
 </p>
 
 
