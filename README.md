@@ -23,6 +23,12 @@
   <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/JSBasics/Counter/counter.html' ><img src="https://drive.google.com/uc?export=view&id=1lae46aV_Y5abTTZMVQ2ErjKa8HvH57Cf" width="32%" /></a>
 </p>
 
+<h3 align='center'>Projects</h3>
+<p align="center">
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/qr-code-component-main/index.html' ><img src="https://drive.google.com/uc?export=view&id=1lDapiaSMPCoY8Yzdxws9r7xe6thmrT_s" width="32%" /></a>
+</p>
+
+
 ---
 
 ## Repository Structure
