@@ -10,10 +10,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -25,7 +22,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- GitHubPages URL: [Add solution URL here](https://your-solution-url.com)
+- [GitHubPages](https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/qr-code-component-main/index.html)
 
 ## My process
 
