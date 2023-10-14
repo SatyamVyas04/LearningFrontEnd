@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+body {
+	font-family: "Outfit", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+		sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer {
+    background-color: hsl(212, 45%, 89%);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.qrcode{
+    width: 20rem;
+    height: 30rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1.5rem;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;   
+}
+
+.qrcode .qr {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.qrcode h2 {
+    color: hsl(218, 44%, 22%);
+    font-size: 1.6rem;
+    margin: 1rem 0rem;
+}
+
+.qrcode p{
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    margin: 0rem;
+}
