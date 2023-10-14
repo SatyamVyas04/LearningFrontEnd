@@ -19,6 +19,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .qrcode{
     width: 20rem;
     height: 30rem;
