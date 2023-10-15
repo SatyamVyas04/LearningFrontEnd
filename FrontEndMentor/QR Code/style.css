@@ -29,7 +29,8 @@ body {
     background-color: white;
     text-align: center;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
+    box-shadow: 4px 4px 1rem black;
 }
 
 .qrcode .qr {
