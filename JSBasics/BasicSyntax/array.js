@@ -12,7 +12,6 @@
 // splice()
 // toString()
 // unshift()
-// valueOf()
 
 const arr = ["1", 2, 'three', true, 1.5, 10];
 console.log(arr);
@@ -22,17 +21,21 @@ console.log(arr);
 console.log(arr.length);
 console.log(arr[3]);
 
-arr.push("Hello");
-console.log(arr);
+let returnValue = arr.push("Hello");;
+console.log(returnValue); // New Length
+console.log(arr); 
 
-let returnValue = arr.pop();
-console.log(returnValue);
+returnValue = arr.pop();
+console.log(returnValue); // Popped Value
 console.log(arr);
 
 returnValue = arr.unshift("Hello");
-console.log(returnValue);
+console.log(returnValue); // New Length
 console.log(arr);
-// Unshift and Push return new Length
+
+returnValue = arr.shift();
+console.log(returnValue); // Removed Value
+console.log(arr);
 
 returnValue = arr.splice(1, 3);
 console.log(returnValue); // Removed Portion
