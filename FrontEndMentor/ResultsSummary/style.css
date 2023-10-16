@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.results{
+    display: flex;
+    width: 100%;
+    height: 100dvh;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    gap: 2em;
+}
+
+.final_score{
+   border: 1px solid black; 
+}
+
+.summary {
+    border: 1px solid black;
+}
+
+.summary .categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.summary .categories .category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+

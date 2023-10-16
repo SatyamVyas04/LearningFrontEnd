@@ -1,47 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Results summary component</title>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Frontend Mentor | Results summary component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Your Result
-  76
-  of 100
-
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="results">
+			<div class="final_score">
+				<h3>Your Result</h3>
+				<div class="score circle">
+					<h1>76</h1>
+					<p>of 100</p>
+				</div>
+				<h2 class="remark">Remark!</h2>
+				<p class="percentile">Gyaan</p>
+			</div>
+			<div class="summary">
+				<h3>Summary</h3>
+				<div class="categories">
+					<div class="category">
+						<img src="" alt="" />
+						<h4 class="name">Reaction</h4>
+						<h4 class="score">80</h4>
+						<h4>/100</h4>
+					</div>
+					<div class="category">
+						<img src="" alt="" />
+						<h4 class="name">Memory</h4>
+						<h4 class="score">92</h4>
+						<h4>/100</h4>
+					</div>
+					<div class="category">
+						<img src="" alt="" />
+						<h4 class="name">Verbal</h4>
+						<h4 class="score">61</h4>
+						<h4>/100</h4>
+					</div>
+					<div class="category">
+						<img src="" alt="" />
+						<h4 class="name">Visual</h4>
+						<h4 class="score">72</h4>
+						<h4>/100</h4>
+					</div>
+					<button type='button' class="EndButton">Continue</button>
+				</div>
+			</div>
+		</div>
+		<div class="attribution">
+			Challenge by
+			<a
+				href="https://www.frontendmentor.io?ref=challenge"
+				target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="#">Your Name Here</a>.
+		</div>
+	</body>
 </html>
