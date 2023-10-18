@@ -36,8 +36,9 @@ body {
 	color: white;
 	flex-direction: column;
 	align-items: center;
+	gap: 0.5rem;
 	width: 220px;
-	height: 300px;
+	height: 320px;
 	border-radius: 1rem;
 }
 
@@ -93,7 +94,7 @@ p {
 	justify-content: space-between;
 	padding: 0 1rem;
 	width: 200px;
-	height: 300px;
+	height: 320px;
 }
 
 .summary h3 {
@@ -105,24 +106,21 @@ p {
 	display: flex;
 	flex-direction: column;
 	gap: 0.5rem;
+	padding: 0 0.5rem;
 }
 
 .summary .categories .category {
 	display: flex;
 	align-items: center;
-	justify-content: left;
-	border: 1px solid red;
+	justify-content: space-between;
 	border-radius: 0.5rem;
 	padding: 0.5rem;
 	gap: 0.5rem;
 }
 
-.summary .categories .category p {
+.summary .categories .category .marks p {
 	display: inline;
-}
-
-.summary .categories .category * {
-	margin: 0;
+	font-size: 0.8rem;
 }
 
 .summary .EndButton {
@@ -141,4 +139,47 @@ p {
 	color:hsl(224, 30%, 27%);
 	background-color: white;
 	border: 2px solid hsl(224, 30%, 27%);
+}
+
+.summary .categories .category .marks .score {
+	color: black;
+	font-weight: 700;
+}
+
+.summary .categories .category .marks :not(.score) {
+	color: hsl(0, 0%, 50%);
+}
+
+.summary .categories .category .logoname .name{
+	padding: 0;
+	margin: 0;
+	display: inline;
+	font-size: 0.8rem;
+}
+
+.summary .categories .category .logoname{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	gap: 0.25rem;
+}
+
+.summary .c1 {
+	background-color: hsl(0, 100%, 97%);
+	color: hsl(0, 100%, 67%);
+}
+
+.summary .c2 {
+	background-color: hsl(39, 100%, 97%);
+	color: hsl(39, 100%, 56%);
+}
+
+.summary .c3 {
+	background-color: hsl(166, 100%, 97%);
+	color: hsl(166, 100%, 37%)
+}
+
+.summary .c4 {
+	background-color: hsl(234, 85%, 97%);
+	color: hsl(234, 85%, 45%);
 }
