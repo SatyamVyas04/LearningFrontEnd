@@ -99,7 +99,7 @@ p {
 
 .summary h3 {
 	font-size: 1rem;
-	color:hsl(224, 30%, 27%)
+	color: hsl(224, 30%, 27%);
 }
 
 .summary .categories {
@@ -135,8 +135,8 @@ p {
 	box-shadow: none;
 }
 
-.summary .EndButton:is(:active, :focus, :hover){
-	color:hsl(224, 30%, 27%);
+.summary .EndButton:is(:active, :focus, :hover) {
+	color: hsl(224, 30%, 27%);
 	background-color: white;
 	border: 2px solid hsl(224, 30%, 27%);
 }
@@ -150,14 +150,14 @@ p {
 	color: hsl(0, 0%, 50%);
 }
 
-.summary .categories .category .logoname .name{
+.summary .categories .category .logoname .name {
 	padding: 0;
 	margin: 0;
 	display: inline;
 	font-size: 0.8rem;
 }
 
-.summary .categories .category .logoname{
+.summary .categories .category .logoname {
 	display: flex;
 	align-items: center;
 	justify-content: left;
@@ -176,10 +176,27 @@ p {
 
 .summary .c3 {
 	background-color: hsl(166, 100%, 97%);
-	color: hsl(166, 100%, 37%)
+	color: hsl(166, 100%, 37%);
 }
 
 .summary .c4 {
 	background-color: hsl(234, 85%, 97%);
 	color: hsl(234, 85%, 45%);
+}
+
+@media screen and (max-width: 500px) {
+	.final_score {
+		width: 100%;
+		border-radius: 0 0 1rem 1rem;
+	}
+
+	.results {
+		width: 100%;
+		margin: 0;
+		gap: 0;
+	}
+
+	.summary {
+		width: 100%;
+	}
 }
