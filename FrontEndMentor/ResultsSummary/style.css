@@ -193,6 +193,8 @@ p {
 	.results {
 		width: 100%;
 		margin: 0;
+		height: 100%;
+		align-content:flex-start;
 		gap: 0;
 	}
 
