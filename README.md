@@ -1,7 +1,15 @@
 # [LearningFrontEnd](https://satyamvyas04.github.io/LearningFrontEnd/)
+
 <p align='center'><img src="https://user-images.githubusercontent.com/74038190/238200426-29fd6286-4e7b-4d6c-818f-c4765d5e39a9.gif" width='100'>
 <img src="https://user-images.githubusercontent.com/74038190/238200428-67f477ed-6624-42da-99f0-1a7b1a16eecb.gif" width='100'>
 <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width='100'>
+</p>
+
+<h3 align='center'>Projects</h3>
+<p align="center">
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/QR%20Code/index.html' ><img src="https://drive.google.com/uc?export=view&id=1lDapiaSMPCoY8Yzdxws9r7xe6thmrT_s" width="32%" alt='QrCodeCard'/></a>
+  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/ResultsSummary/index.html"><img src = 'https://drive.google.com/uc?export=view&id=1bofxpy9P7zAlIJc_Mnov6W5YVc54RA7K' width='32%' alt='ResultsPage'></a>
+  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/NFTCard/index.html"><img src = 'https://drive.google.com/uc?export=view&id=13CHa7LBizrpJ8u3p_xpDnmjLrCj5-6X_' width='32%' alt='ResultsPage'></a>
 </p>
 
 <h3 align='center'>HTML</h3>
@@ -22,13 +30,6 @@
 <p align="center">
   <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/JSBasics/Counter/counter.html' ><img src="https://drive.google.com/uc?export=view&id=1lae46aV_Y5abTTZMVQ2ErjKa8HvH57Cf" width="32%" alt='Counter'/></a>
 </p>
-
-<h3 align='center'>Projects</h3>
-<p align="center">
-  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/QR%20Code/index.html' ><img src="https://drive.google.com/uc?export=view&id=1lDapiaSMPCoY8Yzdxws9r7xe6thmrT_s" width="32%" alt='QrCodeCard'/></a>
-  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/ResultsSummary/index.html"><img src = 'https://drive.google.com/uc?export=view&id=1bofxpy9P7zAlIJc_Mnov6W5YVc54RA7K' width='32%' alt='ResultsPage'></a>
-</p>
-
 
 ---
 
