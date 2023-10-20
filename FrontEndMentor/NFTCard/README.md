@@ -24,11 +24,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://drive.google.com/uc?export=view&id=13CHa7LBizrpJ8u3p_xpDnmjLrCj5-6X_)
 
 ### Links
 
--   [GithubPages](https://your-solution-url.com)
+-   [GithubPages](https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/NFTCard/index.html)
 
 ## My process
 
