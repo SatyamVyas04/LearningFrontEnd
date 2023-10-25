@@ -8,8 +8,8 @@
 <h3 align='center'>Projects</h3>
 <p align="center">
   <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/QR%20Code/index.html' ><img src="https://drive.google.com/uc?export=view&id=1lDapiaSMPCoY8Yzdxws9r7xe6thmrT_s" width="32%" alt='QrCodeCard'/></a>
+  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/NFTCard/index.html"><img src = 'https://drive.google.com/uc?export=view&id=13CHa7LBizrpJ8u3p_xpDnmjLrCj5-6X_' width='32%' alt='NFTCard'></a>
   <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/ResultsSummary/index.html"><img src = 'https://drive.google.com/uc?export=view&id=1bofxpy9P7zAlIJc_Mnov6W5YVc54RA7K' width='32%' alt='ResultsPage'></a>
-  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/NFTCard/index.html"><img src = 'https://drive.google.com/uc?export=view&id=13CHa7LBizrpJ8u3p_xpDnmjLrCj5-6X_' width='32%' alt='ResultsPage'></a>
 </p>
 
 <h3 align='center'>HTML</h3>
