@@ -7,28 +7,29 @@
 
 <h3 align='center'>Projects</h3>
 <p align="center">
-  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/QR%20Code/index.html' ><img src="https://drive.google.com/uc?export=view&id=1lDapiaSMPCoY8Yzdxws9r7xe6thmrT_s" width="32%" alt='QrCodeCard'/></a>
-  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/NFTCard/index.html"><img src = 'https://drive.google.com/uc?export=view&id=13CHa7LBizrpJ8u3p_xpDnmjLrCj5-6X_' width='32%' alt='NFTCard'></a>
-  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/ResultsSummary/index.html"><img src = 'https://drive.google.com/uc?export=view&id=1bofxpy9P7zAlIJc_Mnov6W5YVc54RA7K' width='32%' alt='ResultsPage'></a>
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/QR%20Code/index.html' ><img src="./ProjectImages/QrCode.png" width="32%" alt='QrCodeCard'/></a>
+  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/NFTCard/index.html"><img src = './ProjectImages/NFTCard.png' width='32%' alt='NFTCard'></a>
+  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/ResultsSummary/index.html"><img src = './ProjectImages/ResultsSummary.png' width='32%' alt='ResultsPage'></a>
+  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/ProductReviewCard"><img src = './ProjectImages/ProductReview.png' width='32%' alt='ProductReview'></a>
 </p>
 
 <h3 align='center'>HTML</h3>
 <p align="center">
-  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/HTMLBasics/Letter/Letter.html' ><img src="https://drive.google.com/uc?export=view&id=113r9wecqjhXtHsUs-eFeTLWS0mS0equa" width="32%" alt='Letter'/></a>
-  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/HTMLBasics/PlanetData/blank-template.html' ><img src="https://drive.google.com/uc?export=view&id=1LGftmIzk-zIhko5rWx0-ZO0ArZ-keWey" width="32%" alt='PlanetData'/></a>
-  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/HTMLBasics/MozillaSplash/index.html' ><img src="https://drive.google.com/uc?export=view&id=1wteYfhd3_a84A9vrL_S3xZwRkgP0Tg53" width="32%" alt='MozillaSplashPage'/></a>
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/HTMLBasics/Letter/Letter.html' ><img src="./ProjectImages/Letter.png" width="32%" alt='Letter'/></a>
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/HTMLBasics/PlanetData/blank-template.html' ><img src="./ProjectImages/PlanetData.png" width="32%" alt='PlanetData'/></a>
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/HTMLBasics/MozillaSplash/index.html' ><img src="./ProjectImages/Mozillas.png" width="32%" alt='MozillaSplashPage'/></a>
 </p>
 
 <h3 align='center'>CSS</h3>
 <p align="center">
-  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/CSSBasics/TypesettingHomePage/main.html' ><img src="https://drive.google.com/uc?export=view&id=17KjLA6z_skV1Ae0anvDRfBczzPe_zkLW" width="32%" alt='TypeSetting'/></a>
-  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/CSSBasics/ResponsiveWebsite/home.html' ><img src="https://drive.google.com/uc?export=view&id=1jREwppTV4orBgtWAGISH4X72CJOZLyyh" width="32%" alt='ResponsiveWebsiteLayout'/></a>
-  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/CSSBasics/WebsiteAssignment/home.html' ><img src="https://drive.google.com/uc?export=view&id=1u_1FdWX32DDO7t1GiyOGdFO4iNibewkP" width="32%" alt='WebsiteAssignment'/></a>
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/CSSBasics/TypesettingHomePage/main.html' ><img src="./ProjectImages/TypeSetting.png" width="32%" alt='TypeSetting'/></a>
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/CSSBasics/ResponsiveWebsite/home.html' ><img src="./ProjectImages/Responsive.png" width="32%" alt='ResponsiveWebsiteLayout'/></a>
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/CSSBasics/WebsiteAssignment/home.html' ><img src="./ProjectImages/Website.png" width="32%" alt='WebsiteAssignment'/></a>
 </p>
 
 <h3 align='center'>JS</h3>
 <p align="center">
-  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/JSBasics/Counter/counter.html' ><img src="https://drive.google.com/uc?export=view&id=1lae46aV_Y5abTTZMVQ2ErjKa8HvH57Cf" width="32%" alt='Counter'/></a>
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/JSBasics/Counter/counter.html' ><img src="./ProjectImages/Counter.png" width="32%" alt='Counter'/></a>
 </p>
 
 ---
