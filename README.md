@@ -7,10 +7,11 @@
 
 <h3 align='center'>Projects</h3>
 <p align="center">
-  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/QR%20Code/index.html' ><img src="./ProjectImages/QrCode.png" width="32%" alt='QrCodeCard'/></a>
-  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/NFTCard/index.html"><img src = './ProjectImages/NFTCard.png' width='32%' alt='NFTCard'></a>
-  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/ResultsSummary/index.html"><img src = './ProjectImages/ResultsSummary.png' width='32%' alt='ResultsPage'></a>
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/QR%20Code/' ><img src="./ProjectImages/QrCode.png" width="32%" alt='QrCodeCard'/></a>
+  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/NFTCard/"><img src = './ProjectImages/NFTCard.png' width='32%' alt='NFTCard'></a>
+  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/ResultsSummary/"><img src = './ProjectImages/ResultsSummary.png' width='32%' alt='ResultsPage'></a>
   <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/ProductCard"><img src = './ProjectImages/ProductReview.png' width='32%' alt='ProductCard'></a>
+  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/OrderCard"><img src = './ProjectImages/OrderCard.png' width='32%' alt='OrderCard'></a>
 </p>
 
 <h3 align='center'>HTML</h3>
