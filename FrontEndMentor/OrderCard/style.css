@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+:root {
+	--paleblue: hsl(225, 100%, 94%);
+	--brightblue: hsl(245, 75%, 52%);
+	--vpaleblue: hsl(225, 100%, 98%);
+	--desaturatedblue: hsl(224, 23%, 55%);
+	--darkblue: hsl(223, 47%, 23%);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.outer {
+	width: 100%;
+	height: 100dvh;
+	background-image: url(images/pattern-background-desktop.svg);
+	background-repeat: repeat no-repeat;
+	background-color: var(--paleblue);
+	font-family: "Red Hat Display", sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+
+.card {
+	background-color: white;
+	width: 400px;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 1rem;
+	padding: 0 0 1rem 0;
+	border-radius: 1rem;
+}
+
+.card > img {
+	border-radius: 1rem 1rem 0 0;
+	width: 100%;
+}
+
+.card .title {
+	font-weight: 900;
+	color: var(--darkblue);
+	margin: 1rem 0 0 0;
+}
+
+.card .sub {
+	color: var(--desaturatedblue);
+	padding: 0 3rem;
+	text-align: center;
+	font-weight: 500;
+}
+
+.price {
+	display: flex;
+	background-color: var(--vpaleblue);
+	width: calc(100% - 7rem);
+	padding: 1.25rem;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	border-radius: 1rem;
+}
+
+.price .plan {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.price .plan p {
+	color: var(--desaturatedblue);
+}
+
+.price .plan h4 {
+	font-weight: 700;
+}
+
+.price a {
+	font-weight: 700;
+}
+
+button.proceed {
+	background-color: var(--brightblue);
+	color: white;
+	border: 0;
+	padding: 1rem;
+	width: calc(100% - 5rem);
+	border-radius: 1rem;
+	font-weight: 700;
+}
+
+button.cancel {
+	color: var(--desaturatedblue);
+	border: 0;
+	padding: 1rem;
+	width: calc(100% - 5rem);
+	border-radius: 1rem;
+	font-weight: 700;
+	background-color: white;
+}
+
+@media screen and (max-width: 400px) {
+	.outer {
+		width: 100%;
+		height: 100dvh;
+		background-image: url(images/pattern-background-mobile.svg);
+		background-repeat: repeat no-repeat;
+		background-color: var(--paleblue);
+	}
+}
