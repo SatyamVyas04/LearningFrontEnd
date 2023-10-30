@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-[GithubPages](https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/ProductReviewCard/)
+[GithubPages](https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/ProductCard/)
 
 ## My process
 
