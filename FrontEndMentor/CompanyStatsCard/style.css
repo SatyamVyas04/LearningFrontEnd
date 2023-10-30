@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--vDarkBlue: hsl(233, 47%, 7%); /*MainBg*/
+	--darkDesatBlue: hsl(244, 38%, 16%); /*CardBg*/
+	--softVoilet: hsl(277, 64%, 61%); /*Accent*/
+	--ParaTransparentWhite: hsl(0, 0%, 100%, 0.75); /*MainPara*/
+	--StatsTransparentWhite: hsl(0, 0%, 100%, 0.6); /*StatHeading*/
+}
+
+p {
+	font-size: 15px;
+}
+
+body {
+	font-family: "Inter", sans;
+}
+
+.outer {
+	width: 100%;
+	height: 100dvh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--vDarkBlue);
+}
+
+.card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--darkDesatBlue);
+	border-radius: 1rem;
+	width: 1100px;
+	height: 440px;
+	color: white;
+    box-sizing: border-box;
+	gap: 4rem;
+}
+
+.card .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/image-header-desktop.jpg);
+    background-repeat: no-repeat no-repeat;
+    background-color: var(--softVoilet);
+    height: 100%;
+    width: 200%;
+    border-radius: 0 1rem 1rem 0;
+    background-blend-mode:multiply;
+    filter: brightness(1.25) contrast(0.75) saturate(1.5);
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 3rem;
+	margin: 1rem;
+}
+
+.info .title {
+	font-size: 2.25rem;
+	font-weight: 700;
+	margin: 2rem 0 0 0;
+}
+
+.info .title strong {
+	color: var(--softVoilet);
+	font-weight: 700;
+}
+
+.info > p {
+	color: var(--ParaTransparentWhite);
+	font-weight: 500;
+	margin: 0 1rem 0 0;
+	line-height: 1.75;
+}
+
+.stats {
+	display: flex;
+	padding: 3rem;
+	width: 100%;
+	align-items: center;
+	font-weight: 700;
+	gap: 1rem;
+	justify-content: space-between;
+}
+
+.stats .data + p {
+	font-family: "Lexend Deca", sans-serif;
+	font-weight: 500;
+	color: var(--StatsTransparentWhite);
+	text-transform: uppercase;
+	font-size: 15px;
+	margin: 0.5rem 0 0 0;
+}
