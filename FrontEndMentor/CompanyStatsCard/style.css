@@ -39,22 +39,22 @@ body {
 	width: 1100px;
 	height: 440px;
 	color: white;
-    box-sizing: border-box;
+	box-sizing: border-box;
 	gap: 4rem;
 }
 
 .card .img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(images/image-header-desktop.jpg);
-    background-repeat: no-repeat no-repeat;
-    background-color: var(--softVoilet);
-    height: 100%;
-    width: 100%;
-    border-radius: 0 1rem 1rem 0;
-    background-blend-mode:multiply;
-    filter: brightness(1.25) contrast(0.75) saturate(1.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(images/image-header-desktop.jpg);
+	background-repeat: no-repeat no-repeat;
+	background-color: var(--softVoilet);
+	height: 100%;
+	width: 100%;
+	border-radius: 0 1rem 1rem 0;
+	background-blend-mode: multiply;
+	filter: brightness(1.25) contrast(0.75) saturate(1.5);
 }
 
 .info {
@@ -102,11 +102,11 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-	.outer{
+	.outer {
 		height: auto;
 	}
-	
-	.card{
+
+	.card {
 		flex-direction: column-reverse;
 		margin: 2rem;
 		height: fit-content;
@@ -125,7 +125,7 @@ body {
 		height: 400px;
 		width: 100%;
 		border-radius: 1rem 1rem 0 0;
-		background-blend-mode:multiply;
+		background-blend-mode: multiply;
 		filter: brightness(1.25) contrast(0.75) saturate(1.5);
 	}
 
@@ -141,7 +141,7 @@ body {
 		gap: 2rem;
 	}
 
-	.stats{
+	.stats {
 		flex-direction: column;
 		gap: 1rem;
 		padding-bottom: 2rem;
