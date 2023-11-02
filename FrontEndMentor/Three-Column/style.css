@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Big+Shoulders+Display:wght@700&display=swap");
+
+:root {
+	--orange: hsl(31, 77%, 52%);
+	--cyan: hsl(184, 100%, 22%);
+	--darkcyan: hsl(179, 100%, 13%);
+	--whitePara: hsla(0, 0%, 100%, 0.75);
+	--lightgray: hsl(0, 0%, 95%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.outer {
+	width: 100%;
+	height: 100dvh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--lightgray);
+}
+
+.layout {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card {
+	height: 500px;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 3rem;
+	gap: 2rem;
+}
+
+.card img {
+	width: 65px;
+}
+
+.card h1 {
+	font-size: 3rem;
+	font-family: "Big Shoulders Display", monospace;
+	text-transform: uppercase;
+	color: var(--lightgray);
+}
+
+.card p {
+	font-size: 15px;
+	color: var(--whitePara);
+	font-family: "Lexend Deca", sans-serif;
+}
+
+.card button {
+	/* LEFT TO BE DONE */
+}
+
+.card .learn {
+	margin-top: auto;
+}
+
+.card.sedans {
+	background-color: var(--orange);
+}
+
+.card.suv {
+	background-color: var(--cyan);
+}
+
+.card.lux {
+	background-color: var(--darkcyan);
+}
