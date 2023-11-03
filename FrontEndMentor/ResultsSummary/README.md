@@ -45,6 +45,7 @@ Users should be able to:
 
 - Will come back to use JSON to populate content
 - Stylize a bit further with animations
+> DONE :)
 
 ## Author
 
