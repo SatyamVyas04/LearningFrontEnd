@@ -16,7 +16,6 @@
 
 .outer {
 	width: 100%;
-	height: 100dvh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -27,6 +26,10 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-wrap: wrap;
+	margin: 3rem;
+	border-radius: 0.5rem;
+	overflow: hidden;
 }
 
 .card {
@@ -54,24 +57,50 @@
 	font-size: 15px;
 	color: var(--whitePara);
 	font-family: "Lexend Deca", sans-serif;
-}
-
-.card button {
-	/* LEFT TO BE DONE */
+	line-height: 1.75;
 }
 
 .card .learn {
 	margin-top: auto;
+	border: none;
+	box-shadow: none;
+	height: 48px;
+	width: 75%;
+	font-family: "Lexend Deca", sans-serif;
+	font-size: 1rem;
+	border-radius: 3rem;
+	cursor: pointer;
+}
+
+.card button.learn:is(:hover, :focus, :visited) {
+	background-color: transparent;
+	border: 4px solid var(--lightgray);
+	color: var(--lightgray);
 }
 
 .card.sedans {
 	background-color: var(--orange);
+	.learn {
+		color: var(--orange);
+	}
 }
 
 .card.suv {
 	background-color: var(--cyan);
+	.learn {
+		color: var(--cyan);
+	}
 }
 
 .card.lux {
 	background-color: var(--darkcyan);
+	.learn {
+		color: var(--darkcyan);
+	}
+}
+
+@media screen and (min-width: 995px) {
+	.outer {
+		height: 100dvh;
+	}
 }
