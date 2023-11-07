@@ -10,3 +10,28 @@
 	margin: 0;
 	padding: 0;
 }
+
+.outer {
+	width: 95%;
+	margin: auto;
+	height: 100dvh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto;
+	grid-template-areas:
+		"intro ratings"
+		"reviews reviews";
+	gap: 2rem;
+	}
+
+.intro{
+	grid-area: intro;
+}
+
+.ratings{
+	grid-area: ratings;
+}
+
+.reviews{
+	grid-area: reviews;
+}
