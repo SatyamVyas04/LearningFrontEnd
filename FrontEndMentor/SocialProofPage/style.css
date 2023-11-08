@@ -18,7 +18,7 @@
 	box-sizing: border-box;
 	display: grid;
 	grid-template-columns: 1.25fr 2fr;
-	grid-template-rows: 1.75fr 1.25fr;
+	grid-template-rows: auto 1.25fr;
 	grid-template-areas:
 		"intro ratings"
 		"reviews reviews";
@@ -39,7 +39,7 @@
 		font-size: 3.5rem;
 		color: var(--DarkMagenta);
 		line-height: 0.8;
-		letter-spacing: 0.8;
+		letter-spacing: 0;
 		margin-bottom: 2rem;
 	}
 	.sub {
@@ -86,6 +86,42 @@
 .reviews {
 	grid-area: reviews;
 	display: flex;
-	gap: 2rem;
+	justify-content: center;
+	align-items: center;
 	padding: 2rem;
+	gap: 2rem;
+	.review {
+		display: grid;
+		padding: 2rem;
+		gap: 2rem;
+		width: 100%;
+		color: white;
+		border-radius: 0.5rem;
+		background-color: var(--DarkMagenta);
+		grid-template:
+			"img name-status"
+			"comment comment";
+		grid-template-rows: auto auto;
+		grid-template-columns: 3rem auto;
+		img {
+			grid-area: img;
+			width: 100%;
+			border-radius: 50%;
+		}
+		.name-status {
+			grid-area: name-status;
+			.status {
+				color: var(--SoftPink);
+			}
+		}
+		.comment {
+			grid-area: comment;
+		}
+		&:first-child {
+			transform: translateY(-2rem);
+		}
+		&:last-child {
+			transform: translateY(2rem);
+		}
+	}
 }
