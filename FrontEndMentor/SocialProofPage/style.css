@@ -74,12 +74,6 @@
 			background-image: url(images/icon-star.svg);
 			background-repeat: space;
 		}
-		&:first-child {
-			transform: translateX(-3rem);
-		}
-		&:last-child {
-			transform: translateX(3rem);
-		}
 	}
 }
 
@@ -117,11 +111,54 @@
 		.comment {
 			grid-area: comment;
 		}
+	}
+}
+
+@media screen and (max-width: 700px) {
+	body .outer {
+		padding: 2rem 4rem;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.outer {
+		height: auto;
+		background-image: url(images/bg-pattern-bottom-mobile.svg),
+			url(images/bg-pattern-top-mobile.svg);
+		display: block;
+		padding: 2rem 8rem;
+	}
+
+	.ratings .rating {
+		flex-direction: column;
+		height: 4rem;
+		padding: 0;
+		box-sizing: content-box;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+
+	.reviews {
+		flex-direction: column;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.review {
 		&:first-child {
 			transform: translateY(-2rem);
 		}
 		&:last-child {
 			transform: translateY(2rem);
+		}
+	}
+
+	.rating {
+		&:first-child {
+			transform: translateX(-3rem);
+		}
+		&:last-child {
+			transform: translateX(3rem);
 		}
 	}
 }
