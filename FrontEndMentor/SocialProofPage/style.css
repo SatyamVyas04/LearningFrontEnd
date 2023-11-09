@@ -84,34 +84,36 @@
 	align-items: center;
 	padding: 2rem;
 	gap: 2rem;
-	.review {
-		display: grid;
-		padding: 2rem;
-		gap: 2rem;
-		width: 100%;
-		color: white;
-		border-radius: 0.5rem;
-		background-color: var(--DarkMagenta);
-		grid-template:
-			"img name-status"
-			"comment comment";
-		grid-template-rows: auto auto;
-		grid-template-columns: 3rem auto;
-		img {
-			grid-area: img;
-			width: 100%;
-			border-radius: 50%;
-		}
-		.name-status {
-			grid-area: name-status;
-			.status {
-				color: var(--SoftPink);
-			}
-		}
-		.comment {
-			grid-area: comment;
+}
+
+.reviews .review {
+	display: grid;
+	padding: 2rem;
+	gap: 2rem;
+	width: 100%;
+	color: white;
+	border-radius: 0.5rem;
+	background-color: var(--DarkMagenta);
+	grid-template:
+		"img name-status"
+		"comment comment";
+	grid-template-rows: auto auto;
+	grid-template-columns: 3rem auto;
+	.name-status {
+		grid-area: name-status;
+		.status {
+			color: var(--SoftPink);
 		}
 	}
+	.comment {
+		grid-area: comment;
+	}
+}
+
+.reviews .review img {
+	grid-area: img;
+	width: 100%;
+	border-radius: 50%;
 }
 
 @media screen and (max-width: 700px) {
