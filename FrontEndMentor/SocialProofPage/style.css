@@ -45,6 +45,7 @@
 	.sub {
 		color: var(--DarkGrayishMagenta);
 		font-weight: 500;
+		line-height: 2;
 	}
 }
 
@@ -88,8 +89,8 @@
 
 .reviews .review {
 	display: grid;
-	padding: 2rem;
-	gap: 2rem;
+	padding: 1.5rem;
+	gap: 1.5rem;
 	width: 100%;
 	color: white;
 	border-radius: 0.5rem;
@@ -98,15 +99,19 @@
 		"img name-status"
 		"comment comment";
 	grid-template-rows: auto auto;
-	grid-template-columns: 3rem auto;
+	grid-template-columns: 3.5rem auto;
 	.name-status {
 		grid-area: name-status;
+		justify-items: center;
+		align-items: center;
+		padding: 1rem 0;
 		.status {
 			color: var(--SoftPink);
 		}
 	}
 	.comment {
 		grid-area: comment;
+		line-height: 1.5;
 	}
 }
 
