@@ -11,7 +11,7 @@
 			sizes="32x32"
 			href="./images/favicon-32x32.png"
 		/>
-
+		<link rel="stylesheet" href="style.css" />
 		<title>Frontend Mentor | Interactive rating component</title>
 
 		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -38,19 +38,46 @@
 					Please let us know how we did with your support request. All
 					feedback is appreciated to help us improve our offering!
 				</p>
-				<div class="rating">
-					<input type="radio" name="one" id="one" value="one" />
-					<label for="one">1</label>
-					<input type="radio" name="two" id="two" value="two" />
-					<label for="two">2</label>
-					<input type="radio" name="three" id="three" value="three" />
-					<label for="three">3</label>
-					<input type="radio" name="four" id="four" value="four" />
-					<label for="four">4</label>
-					<input type="radio" name="five" id="five" value="five" />
-					<label for="five">5</label>
-				</div>
-				<button type="submit">Submit</button>
+				<fieldset class="rating">
+					<div class="inputs">
+						<input
+							type="radio"
+							name="rating"
+							id="one"
+							value="one"
+						/>
+						<label for="one">1</label>
+						<input
+							type="radio"
+							name="rating"
+							id="two"
+							value="two"
+						/>
+						<label for="two">2</label>
+						<input
+							type="radio"
+							name="rating"
+							id="three"
+							value="three"
+						/>
+						<label for="three">3</label>
+						<input
+							type="radio"
+							name="rating"
+							id="four"
+							value="four"
+						/>
+						<label for="four">4</label>
+						<input
+							type="radio"
+							name="rating"
+							id="five"
+							value="five"
+						/>
+						<label for="five">5</label>
+					</div>
+					<button type="submit" class="submit">Submit</button>
+				</fieldset>
 			</section>
 			<section class="thanks">
 				<img

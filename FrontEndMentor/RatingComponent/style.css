@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+:root {
+	--orange: hsl(25, 97%, 53%);
+	--lightGrey: hsl(217, 12%, 63%);
+	--medGrey: hsl(216, 12%, 54%);
+	--darkBlue: hsl(213, 19%, 18%);
+	--veryDarkBlue: hsl(216, 12%, 8%);
+}
+
+body p {
+	font-size: 15px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Overpass", sans-serif;
+}
+
+.outer {
+	height: 100dvh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: var(--veryDarkBlue);
+}
+
+.feedback,
+.thanks {
+	background-color: var(--darkBlue);
+	border-radius: 2rem;
+	color: white;
+	width: 26rem;
+	height: 26rem;
+	border: 1px solid black;
+	box-sizing: border-box;
+	display: flex;
+	padding: 2rem;
+	align-items: start;
+	flex-direction: column;
+	.rating {
+		align-self: center;
+	}
+	.submit {
+		align-self: center;
+		width: 100%;
+		height: 2.5rem;
+	}
+}
+
+.feedback h1,
+.thanks h1 {
+	font-size: 1.75rem;
+	margin: 0;
+	padding: 0;
+}
+
+:is(.feedback, .thanks) p {
+	line-height: 1.75;
+	color: var(--lightGrey);
+}
+
+.feedback fieldset {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	border: none;
+}
+
+.feedback img {
+	background-color: hsl(216, 12%, 54%, 25%);
+	border-radius: 50%;
+	margin-bottom: 2rem;
+	padding: 1rem;
+}
+
+.feedback .rating .inputs {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.feedback .rating .inputs label {
+	background-color: hsl(216, 12%, 54%, 25%);
+	color: var(--lightGrey);
+	padding: 1rem;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&:hover {
+		background-color: var(--medGrey);
+	}
+}
+
+.feedback .rating .inputs input {
+	display: none;
+	&:checked {
+		& + label {
+			background-color: var(--orange);
+			color: white;
+		}
+	}
+}
+
+.feedback .submit {
+	color: white;
+	background-color: var(--orange);
+	border: none;
+	border-radius: 2rem;
+	font-size: 1rem;
+	font-family: "Overpass", sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	width: 100%;
+    cursor: pointer;
+}
+
+.thanks {
+	display: none;
+}
