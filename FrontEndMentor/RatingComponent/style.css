@@ -31,7 +31,7 @@ body {
 
 .feedback,
 .thanks {
-	background-color: var(--darkBlue);
+	background-color: hsl(213, 19%, 18%, 50%);
 	border-radius: 2rem;
 	color: white;
 	width: 26rem;
@@ -41,6 +41,7 @@ body {
 	display: flex;
 	padding: 2rem;
 	align-items: start;
+	justify-content: space-between;
 	flex-direction: column;
 	.rating {
 		align-self: center;
@@ -95,6 +96,7 @@ body {
 	width: 1rem;
 	height: 1rem;
 	border-radius: 50%;
+	font-weight: 700;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -123,9 +125,25 @@ body {
 	text-transform: uppercase;
 	font-weight: 700;
 	width: 100%;
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .thanks {
+	align-items: center;
+	justify-content: space-evenly;
+	text-align: center;
+}
+
+.thanks .confirmation {
+	color: var(--orange);
+	display: center;
+	justify-content: center;
+	align-items: center;
+	padding: 0.25rem 1rem;
+	border-radius: 1rem;
+	background-color: hsl(216, 12%, 54%, 25%);
+}
+
+.hidden {
 	display: none;
 }
