@@ -14,6 +14,7 @@
   <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/CompanyStatsCard"><img src = './ProjectImages/CompanyStatsCard.png' width='32%' alt='CompanyStatsCard'></a>
   <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/OrderCard"><img src = './ProjectImages/OrderCard.png' width='32%' alt='OrderCard'></a>
   <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/Three-Column/"><img src = './ProjectImages/ThreeColumn.png' width='32%' alt='3Columns'></a>
+  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/RatingComponent/"><img src = './ProjectImages/RatingComponent.png' width='32%' alt='RatingComponent'></a>
   <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/SocialProofPage/"><img src = './ProjectImages/SocialProof.png' width='32%' alt='3Columns'></a>
 </p>
 

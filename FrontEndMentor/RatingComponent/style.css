@@ -147,3 +147,9 @@ body {
 .hidden {
 	display: none;
 }
+
+@media screen and (max-width: 500px){
+	.feedback, .thanks{
+		scale: calc(350/416);
+	}
+}
