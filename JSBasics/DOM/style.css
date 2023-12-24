@@ -47,7 +47,7 @@ section {
 }
 
 .view1 {
-	display: flex;
+	display: none;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
@@ -72,7 +72,20 @@ section {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	display: none;
+	display: flex;
 	background-color: darkblue;
+	border: 5rem solid rgb(125, 125, 125);
 	color: #fff;
+	& > div {
+		background-color: black;
+		height: 15rem;
+		aspect-ratio: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+.view3 {
+	display: none;
 }
