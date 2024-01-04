@@ -1,48 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Frontend Mentor | FAQ Accordion</title>
+		<link rel="stylesheet" href="output.css" />
+		<script defer src="index.js"></script>
+	</head>
+	<body
+		class="font-worksans w-dvw h-dvh flex flex-col items-center justify-center bg-light-pink bg-hero-bg-desktop bg-no-repeat bg-top bg-contain"
+	>
+		<div class="bg-white min-w-80 w-2/5 p-8 rounded-xl">
+			<h1
+				class="text-5xl font-bold mb-4 text-dark-purple before:bg-acc-star before:w-12 before:h-12 before:bg-bottom before:inline-block before:bg-no-repeat"
+			>
+				FAQs
+			</h1>
+			<dl class="transition-all">
+				<dt class="title">
+					<p>What is Frontend Mentor, and how will it help me?</p>
+					<div class="btn-plus" id="btn0"></div>
+				</dt>
+				<dd
+					id="dd0"
+					class="text-gray-purple text-sm pt-2 pb-4 hidden transition-all"
+				>
+					Frontend Mentor offers realistic coding challenges to help
+					developers improve their frontend coding skills with
+					projects in HTML, CSS, and JavaScript. It's suitable for all
+					levels and ideal for portfolio building.
+				</dd>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | FAQ accordion</title>
+				<hr />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+				<dt class="title">
+					<p>Is Frontend Mentor free?</p>
+					<div class="btn-plus" id="btn1"></div>
+				</dt>
+				<dd
+					id="dd1"
+					class="text-gray-purple text-sm pt-2 pb-4 hidden transition-all"
+				>
+					Yes, Frontend Mentor offers both free and premium coding
+					challenges, with the free option providing access to a range
+					of projects suitable for all skill levels.
+				</dd>
 
-  FAQs
+				<hr />
 
-  What is Frontend Mentor, and how will it help me?
+				<dt class="title">
+					<p>Can I use Frontend Mentor projects in my portfolio?</p>
+					<div class="btn-plus" id="btn2"></div>
+				</dt>
+				<dd
+					id="dd2"
+					class="text-gray-purple text-sm pt-2 pb-4 hidden transition-all"
+				>
+					Yes, you can use projects completed on Frontend Mentor in
+					your portfolio. It's an excellent way to showcase your
+					skills to potential employers!
+				</dd>
 
-  Frontend Mentor offers realistic coding challenges to help developers improve their 
-  frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for 
-  all levels and ideal for portfolio building.
+				<hr />
 
-  Is Frontend Mentor free?
-
-  Yes, Frontend Mentor offers both free and premium coding challenges, with the free 
-  option providing access to a range of projects suitable for all skill levels.
-
-  Can I use Frontend Mentor projects in my portfolio?
-
-  Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
-  way to showcase your skills to potential employers!
-
-  How can I get help if I'm stuck on a Frontend Mentor challenge?
-  
-  The best place to get help is inside Frontend Mentor's Discord community. There's a help 
-  channel where you can ask questions and seek support from other community members.
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+				<dt class="title">
+					<p>
+						How can I get help if I'm stuck on a Frontend Mentor
+						challenge?
+					</p>
+					<div class="btn-plus" id="btn3"></div>
+				</dt>
+				<dd
+					id="dd3"
+					class="text-gray-purple text-sm pt-2 pb-4 hidden transition-all duration-300"
+				>
+					The best place to get help is inside Frontend Mentor's
+					Discord community. There's a help channel where you can ask
+					questions and seek support from other community members.
+				</dd>
+			</dl>
+		</div>
+	</body>
 </html>

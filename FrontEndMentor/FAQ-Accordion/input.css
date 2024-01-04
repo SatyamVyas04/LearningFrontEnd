@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-plus {
+	@apply w-8 h-8 bg-acc-plus bg-center hover:cursor-pointer min-w-8;
+}
+
+.title {
+	@apply font-semibold text-dark-purple text-base flex justify-between items-center gap-1 py-4;
+}
+
+.btn-minus {
+	@apply bg-acc-minus;
+}
