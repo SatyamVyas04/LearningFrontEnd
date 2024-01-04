@@ -5,7 +5,7 @@
 <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width='100'>
 </p>
 
-<h3 align='center'>Projects</h3>
+<h3 align='center'>Static Projects</h3>
 <p align="center">
   <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/QR%20Code/' ><img src="./ProjectImages/QrCode.png" width="32%" alt='QrCodeCard'/></a>
   <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/NFTCard/"><img src = './ProjectImages/NFTCard.png' width='32%' alt='NFTCard'></a>
@@ -18,11 +18,9 @@
   <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/SocialProofPage/"><img src = './ProjectImages/SocialProof.png' width='32%' alt='3Columns'></a>
 </p>
 
-<h3 align='center'>HTML</h3>
+<h3 align='center'>Dynamic Projects</h3>
 <p align="center">
-  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/HTMLBasics/Letter/Letter.html' ><img src="./ProjectImages/Letter.png" width="32%" alt='Letter'/></a>
-  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/HTMLBasics/PlanetData/blank-template.html' ><img src="./ProjectImages/PlanetData.png" width="32%" alt='PlanetData'/></a>
-  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/HTMLBasics/MozillaSplash/index.html' ><img src="./ProjectImages/Mozillas.png" width="32%" alt='MozillaSplashPage'/></a>
+  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/FAQ-Accordion/"><img src = './ProjectImages/FAQAccordian.png' width='32%' alt='3Columns'></a>
 </p>
 
 <h3 align='center'>CSS</h3>
@@ -32,9 +30,11 @@
   <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/CSSBasics/WebsiteAssignment/home.html' ><img src="./ProjectImages/Website.png" width="32%" alt='WebsiteAssignment'/></a>
 </p>
 
-<h3 align='center'>JS</h3>
+<h3 align='center'>HTML</h3>
 <p align="center">
-  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/JSBasics/Counter/counter.html' ><img src="./ProjectImages/Counter.png" width="32%" alt='Counter'/></a>
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/HTMLBasics/Letter/Letter.html' ><img src="./ProjectImages/Letter.png" width="32%" alt='Letter'/></a>
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/HTMLBasics/PlanetData/blank-template.html' ><img src="./ProjectImages/PlanetData.png" width="32%" alt='PlanetData'/></a>
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/HTMLBasics/MozillaSplash/index.html' ><img src="./ProjectImages/Mozillas.png" width="32%" alt='MozillaSplashPage'/></a>
 </p>
 
 ---
