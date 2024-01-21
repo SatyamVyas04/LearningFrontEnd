@@ -1,21 +1,39 @@
-import { posts } from "./posts.js";
+// Fetch API Practise
+// Workflow Function
 
-posts.forEach((post) => {
-	console.log(post.id);
-});
-console.clear();
+const get_user_data = async () => {
+	const user_data = await fetch("https://jsonplaceholder.typicode.com/users");
+	const user_data_processed = await user_data.json();
+	const user_email_array = user_data_processed.map((user) => {
+		return user.email;
+	});
+	return user_email_array;
+};
 
-const filter_posts = posts.filter((post) => {
-	return post.userId == 1;
-});
-console.log(filter_posts);
+const print_user_email = async () => {
+	const user_data = await get_user_data();
+	user_data.forEach((email) => {
+		console.log(email);
+	});
+};
 
-const mapped_posts = filter_posts.map((post) => {
-	return post.id * 10;
-});
-console.log(mapped_posts);
+print_user_email();
 
-const reduced_posts = mapped_posts.reduce((sum, post) => {
-	return sum + post;
-});
-console.log(reduced_posts);
+// OR
+
+const post_user_data = async () => {
+	const user_data = await fetch("https://jsonplaceholder.typicode.com/users");
+	const user_data_processed = await user_data.json();
+	const user_email_array = user_data_processed.map((user) => {
+		return user.email;
+	});
+	postingfn(user_email_array);
+};
+
+const postingfn = (data) => {
+	data.forEach((email) => {
+		console.log(email);
+	});
+};
+
+post_user_data();
