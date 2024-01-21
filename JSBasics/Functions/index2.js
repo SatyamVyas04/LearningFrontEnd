@@ -1,5 +1,6 @@
 // Fetch API Practise
 // Second Parameter : is an Object
+// GET Method
 
 const get_jokes = async () => {
 	const joke_response = await fetch("https://icanhazdadjoke.com", {
