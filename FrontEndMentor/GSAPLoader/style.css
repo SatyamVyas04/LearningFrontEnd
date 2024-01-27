@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section {
+	height: 100dvh;
+	width: 100dvw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.loader-page svg {
+	width: 20%;
+	min-width: 200px;
+	height: fit-content;
+	overflow: visible;
+	padding: 0;
+	margin: 0;
+}
+
+.loader-page {
+	background-color: #222;
+	/* Making this Overlay on the Landing Page */
+	position: absolute;
+	z-index: 1;
+}
+
+g {
+	overflow: hidden;
+	visibility: hidden;
+}
+
+.landing-page {
+	background-color: antiquewhite;
+}
