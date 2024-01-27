@@ -35,4 +35,10 @@ g {
 
 .landing-page {
 	background-color: antiquewhite;
+	h2 {
+		display: flex;
+		margin: 0;
+		padding: 2rem 0rem;
+		text-align: center;
+	}
 }
