@@ -1,26 +1,22 @@
 # [LearningFrontEnd](https://satyamvyas04.github.io/LearningFrontEnd/)
 
-<p align='center'><img src="https://user-images.githubusercontent.com/74038190/238200426-29fd6286-4e7b-4d6c-818f-c4765d5e39a9.gif" width='100'>
-<img src="https://user-images.githubusercontent.com/74038190/238200428-67f477ed-6624-42da-99f0-1a7b1a16eecb.gif" width='100'>
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width='100'>
+<h3 align='center'>Dynamic Projects</h3>
+<p align="center">
+  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/Projects/FAQ-Accordion/"><img src = './ProjectImages/FAQAccordian.png' width='32%' alt='3Columns'></a>
+  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/Projects/GSAPLoader/"><img src = './ProjectImages/GSPALoader.png' width='32%' alt='3Columns'></a>
 </p>
 
 <h3 align='center'>Static Projects</h3>
 <p align="center">
-  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/QR%20Code/' ><img src="./ProjectImages/QrCode.png" width="32%" alt='QrCodeCard'/></a>
-  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/NFTCard/"><img src = './ProjectImages/NFTCard.png' width='32%' alt='NFTCard'></a>
-  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/ResultsSummary/"><img src = './ProjectImages/ResultsSummary.png' width='32%' alt='ResultsPage'></a>
-  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/ProductCard"><img src = './ProjectImages/ProductReview.png' width='32%' alt='ProductCard'></a>
-  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/CompanyStatsCard"><img src = './ProjectImages/CompanyStatsCard.png' width='32%' alt='CompanyStatsCard'></a>
-  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/OrderCard"><img src = './ProjectImages/OrderCard.png' width='32%' alt='OrderCard'></a>
-  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/Three-Column/"><img src = './ProjectImages/ThreeColumn.png' width='32%' alt='3Columns'></a>
-  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/RatingComponent/"><img src = './ProjectImages/RatingComponent.png' width='32%' alt='RatingComponent'></a>
-  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/SocialProofPage/"><img src = './ProjectImages/SocialProof.png' width='32%' alt='3Columns'></a>
-</p>
-
-<h3 align='center'>Dynamic Projects</h3>
-<p align="center">
-  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/FrontEndMentor/FAQ-Accordion/"><img src = './ProjectImages/FAQAccordian.png' width='32%' alt='3Columns'></a>
+  <a href = 'https://satyamvyas04.github.io/LearningFrontEnd/Projects/QR%20Code/' ><img src="./ProjectImages/QrCode.png" width="32%" alt='QrCodeCard'/></a>
+  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/Projects/NFTCard/"><img src = './ProjectImages/NFTCard.png' width='32%' alt='NFTCard'></a>
+  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/Projects/ResultsSummary/"><img src = './ProjectImages/ResultsSummary.png' width='32%' alt='ResultsPage'></a>
+  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/Projects/ProductCard"><img src = './ProjectImages/ProductReview.png' width='32%' alt='ProductCard'></a>
+  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/Projects/CompanyStatsCard"><img src = './ProjectImages/CompanyStatsCard.png' width='32%' alt='CompanyStatsCard'></a>
+  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/Projects/OrderCard"><img src = './ProjectImages/OrderCard.png' width='32%' alt='OrderCard'></a>
+  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/Projects/Three-Column/"><img src = './ProjectImages/ThreeColumn.png' width='32%' alt='3Columns'></a>
+  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/Projects/RatingComponent/"><img src = './ProjectImages/RatingComponent.png' width='32%' alt='RatingComponent'></a>
+  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/Projects/SocialProofPage/"><img src = './ProjectImages/SocialProof.png' width='32%' alt='3Columns'></a>
 </p>
 
 <h3 align='center'>CSS</h3>
