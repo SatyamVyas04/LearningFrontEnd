@@ -11,6 +11,7 @@
 			href="./images/favicon-32x32.png"
 		/>
 		<link rel="stylesheet" href="output.css" />
+		<script defer src="index.js"></script>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -19,43 +20,76 @@
 		/>
 		<title>Frontend Mentor | Article preview component</title>
 	</head>
-	<body class="wrapper">
-		<section class="card">
-			<div class="mainimgdiv"></div>
-			<article class="rightpost">
-				<h2 class="header">
+	<body
+		class="wrapper w-dvw h-auto sm:h-dvh bg-zinc-200 flex items-center justify-center"
+	>
+		<section
+			class="card shadow-2xl bg-white w-full md:w-2/3 flex flex-col sm:flex-row h-auto md:h-80 rounded-xl overflow-clip"
+		>
+			<div
+				class="mainimgdiv flex-shrink-0 w-full sm:w-[45%] h-80 sm:h-auto bg-[url(./images/drawers.jpg)] bg-cover"
+			></div>
+			<article
+				class="rightpost p-8 flex flex-col justify-between overflow-scroll w-dvw sm:w-auto"
+			>
+				<h2 class="header text-2xl font-bold text-zinc-700">
 					Shift the overall look and feel by adding these wonderful
 					touches to furniture in your home
 				</h2>
-				<p class="subheader">
+				<p class="subheader mt-2 font-medium text-base text-zinc-500">
 					Ever been in a room and felt like something was missing?
 					Perhaps it felt slightly bare and uninviting. I've got some
 					simple tips to help you make any room feel complete.
 				</p>
-				<article class="author">
+				<article
+					class="author mt-8 sm:mt-2 flex flex-row justify-between items-center"
+				>
 					<img
+						class="w-12 h-12 rounded-full"
 						src="./images/avatar-michelle.jpg"
 						alt="Author Michelle Appleton"
 					/>
-					<div class="namedate">
-						<h4>Michelle Appleton</h4>
-						<p>28 Jun 2020</p>
+					<div class="namedate mr-auto ml-4">
+						<h4 class="font-bold text-zinc-700">
+							Michelle Appleton
+						</h4>
+						<p class="text-sm text-zinc-500">28 Jun 2020</p>
 					</div>
-					<div class="share">
-						<img src="./images/icon-share.svg" alt="Share Button" />
-						<div class="hovertool">
+
+					<div
+						class="share flex flex-col items-center justify-center uppercase relative"
+					>
+						<img
+							id="sharebutton"
+							class="p-4 rounded-full bg-zinc-300"
+							src="./images/icon-share.svg"
+							alt="Share Button"
+						/>
+						<div
+							id="sharehover"
+							class="w-dvw sm:w-[200px] absolute right-[-32px] sm:right-[-50%] sm:left-auto rounded-lg flex flex-row p-4 justify-evenly items-center bg-slate-600 text-white sm:bottom-[100%] transition-opacity opacity-0 ease-out duration-300"
+						>
 							<p>Share</p>
 							<img
+								class="pl-4 ml-4 sm:pl-2"
 								src="./images/icon-facebook.svg"
 								alt="Facebook"
 							/>
 							<img
+								class="pl-4 sm:pl-2"
 								src="./images/icon-twitter.svg"
 								alt="Twitter"
 							/>
 							<img
+								class="pl-4 sm:pl-2"
 								src="./images/icon-pinterest.svg"
 								alt="Pinterest"
+							/>
+							<img
+								id="shareclose"
+								class="sm:hidden ml-auto bg-slate-500 p-4 rounded-full"
+								src="./images/icon-share2.svg"
+								alt="Share"
 							/>
 						</div>
 					</div>
