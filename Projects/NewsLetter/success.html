@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="output.css" />
+		<title>Thank you!</title>
+	</head>
+	<body class="bg-Charcoal-Grey flex items-center justify-center h-dvh">
+		<article
+			class="Card bg-White-Project h-dvh w-dvw p-8 flex flex-col justify-center gap-6 sm:h-[500px] sm:w-[500px] sm:rounded-lg"
+		>
+			<img src="./images/icon-success.svg" alt="Tick" class="w-16" />
+			<h1 class="text-3xl roboto-bold text-Dark-Slate-Grey">
+				Thanks for subscribing!
+			</h1>
+			<p id="confirm_message" class="roboto-medium"></p>
+			<form>
+				<input
+					type="submit"
+					value="Dismiss Message"
+					name="Submit"
+					id="go_back"
+					class="ButtonProject relative top-[200%] sm:top-[100%]"
+				/>
+			</form>
+		</article>
+		<script>
+			// Retrieve email parameter from URL
+			var params = new URLSearchParams(window.location.search);
+			var email = params.get("email");
+
+			// Display the email address
+			let paragraph = document.getElementById("confirm_message");
+			paragraph.innerHTML =
+				"A confirmation email has been to <b>" +
+				email +
+				"</b>. Please open it and click the button inside to confirm your subscription";
+
+			// Add Button Click Effect
+			document.getElementById("go_back").addEventListener("click", () => {
+				event.preventDefault();
+				window.location.href =
+					"https://satyamvyas04.github.io/LearningFrontEnd/Projects/Newsletter/";
+			});
+		</script>
+	</body>
+</html>
