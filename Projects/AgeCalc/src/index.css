@@ -3,21 +3,31 @@
 @tailwind utilities;
 
 @font-face {
+	font-family: "PoppinsBase";
+	src: url("/fonts/Poppins-Regular.ttf");
+}
+@font-face {
 	font-family: "PoppinsItalic";
-	src: url("../public/fonts/Poppins-Italic.ttf");
+	src: url("/fonts/Poppins-Italic.ttf");
 }
 
 @font-face {
 	font-family: "PoppinsBold";
-	src: url("../public/fonts/Poppins-Bold.ttf");
+	src: url("/fonts/Poppins-Bold.ttf");
 }
 
 @font-face {
 	font-family: "PoppinsBoldItalic";
-	src: url("../public/fonts/Poppins-BoldItalic.ttf");
+	src: url("/fonts/Poppins-BoldItalic.ttf");
 }
 
 @font-face {
 	font-family: "PoppinsEBoldItalic";
-	src: url("../public/fonts/Poppins-ExtraBoldItalic.ttf");
+	src: url("/fonts/Poppins-ExtraBoldItalic.ttf");
+}
+
+@layer base {
+	.InputField {
+		@apply text-black bg-OffWhite w-full p-3 text-xl font-PoppinsBold rounded-sm outline outline-1 focus:outline-2 outline-LightGrey focus:outline-Purple;
+	}
 }

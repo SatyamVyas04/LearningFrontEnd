@@ -13,6 +13,7 @@ export default {
 			},
 		},
 		fontFamily: {
+			PoppinsBase: ["PoppinsBase", "sans-serif"],
 			PoppinsItalic: ["PoppinsItalic", "sans-serif"],
 			PoppinsBold: ["PoppinsBold", "sans-serif"],
 			PoppinsBoldItalic: ["PoppinsBoldItalic", "sans-serif"],
