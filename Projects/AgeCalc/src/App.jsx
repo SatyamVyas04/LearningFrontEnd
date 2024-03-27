@@ -4,11 +4,11 @@ function App() {
 	return (
 		<>
 			<article className="flex items-center justify-center w-dvw h-dvh bg-LightGrey">
-				<article className="w-full sm:w-[600px] h-[500px] bg-OffWhite rounded-xl rounded-br-[40%] p-6">
+				<article className="w-full sm:w-[600px] h-[500px] bg-OffWhite sm:rounded-xl rounded-2xl sm:rounded-br-[40%] p-6">
 					<form>
 						<fieldset className="flex w-full sm:w-[80%] items-center justify-center gap-2 p-4">
 							<label className="flex flex-col gap-2">
-								<p className="font-PoppinsBold text-SmokeyGrey text-sm">
+								<p className="font-PoppinsBold text-SmokeyGrey text-xs sm:text-sm">
 									Day
 								</p>
 								<input
@@ -26,7 +26,7 @@ function App() {
 								</p>
 							</label>
 							<label className="flex flex-col gap-2">
-								<p className="font-PoppinsBold text-SmokeyGrey text-sm">
+								<p className="font-PoppinsBold text-SmokeyGrey text-xs sm:text-sm">
 									Month
 								</p>
 								<input
@@ -44,7 +44,7 @@ function App() {
 								</p>
 							</label>
 							<label className="flex flex-col gap-2">
-								<p className="font-PoppinsBold text-SmokeyGrey text-sm">
+								<p className="font-PoppinsBold text-SmokeyGrey text-xs sm:text-sm">
 									Year
 								</p>
 								<input
@@ -62,7 +62,7 @@ function App() {
 								</p>
 							</label>
 						</fieldset>
-						<div class="flex items-center -mt-8">
+						<div class="flex items-center sm:-mt-8 -mt-4">
 							<div class="flex-grow bg bg-LightGrey h-[1.5px]"></div>
 							<button
 								type="button"

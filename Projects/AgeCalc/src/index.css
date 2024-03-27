@@ -28,6 +28,6 @@
 
 @layer base {
 	.InputField {
-		@apply text-black bg-OffWhite w-full p-3 text-xl font-PoppinsBold rounded-sm outline outline-1 focus:outline-2 outline-LightGrey focus:outline-Purple;
+		@apply text-black bg-OffWhite w-full p-3 text-base sm:text-xl font-PoppinsBold rounded-sm outline outline-1 focus:outline-2 outline-LightGrey focus:outline-Purple;
 	}
 }
