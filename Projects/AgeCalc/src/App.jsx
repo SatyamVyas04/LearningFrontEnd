@@ -1,4 +1,5 @@
 import submitImg from "./assets/icon-arrow.svg";
+import Output from "./Output";
 
 function App() {
 	return (
@@ -62,17 +63,18 @@ function App() {
 								</p>
 							</label>
 						</fieldset>
-						<div class="flex items-center sm:-mt-8 -mt-4">
+						<div class="flex items-center sm:-mt-8 -mt-2">
 							<div class="flex-grow bg bg-LightGrey h-[1.5px]"></div>
 							<button
 								type="button"
-								className="p-4 rounded-full bg-Purple hover:bg-black"
+								className="p-4 rounded-full bg-Purple hover:bg-OffBlack"
 							>
 								<img src={submitImg} alt="SubmitButton" />
 							</button>
 							<div class="flex-grow bg bg-LightGrey h-[1.5px] sm:hidden"></div>
 						</div>
 					</form>
+					<Output />
 				</article>
 			</article>
 		</>
