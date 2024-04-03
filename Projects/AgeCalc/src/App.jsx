@@ -19,13 +19,48 @@ function App() {
 		console.log(day);
 		console.log(month);
 		console.log(year);
-		if (day > 31 || day < 1) {
+		if (day === "") {
+			setDayError("This field is required");
 			setDayErrorView("opacity-100");
 			setDayHeaderView("text-LightRed");
-			setDayError("Must be a Valid Date");
+		} else if (day > 31 || day < 1) {
+			setDayError("Must be a valid date");
+			setDayErrorView("opacity-100");
+			setDayHeaderView("text-LightRed");
+		} else {
+			setDayError("Error Placeholder");
+			setDayErrorView("opacity-0");
+			setDayHeaderView("text-SmokeyGrey");
 		}
 
-		// Write for month and year as well
+		if (month === "") {
+			setMonthError("This field is required");
+			setMonthErrorView("opacity-100");
+			setMonthHeaderView("text-LightRed");
+		} else if (month > 12 || month < 1) {
+			setMonthError("Must be a valid month");
+			setMonthErrorView("opacity-100");
+			setMonthHeaderView("text-LightRed");
+		} else {
+			setMonthError("Error Placeholder");
+			setMonthErrorView("opacity-0");
+			setMonthHeaderView("text-SmokeyGrey");
+		}
+
+		if (year === "") {
+			setYearError("This field is required");
+			setYearErrorView("opacity-100");
+			setYearHeaderView("text-LightRed");
+		} else if (year > new Date().getFullYear()) {
+			setYearError("Must be in the past");
+			setYearErrorView("opacity-100");
+			setYearHeaderView("text-LightRed");
+		} else {
+			setYearError("Error Placeholder");
+			setYearErrorView("opacity-0");
+			setYearHeaderView("text-SmokeyGrey");
+		}
+
 		// Write for complete date, to see if it's valid or not
 		// Finally reset all error states and call the animated output
 	};
@@ -33,7 +68,7 @@ function App() {
 	return (
 		<>
 			<article className="flex items-center justify-center w-dvw h-dvh bg-LightGrey">
-				<article className="w-full sm:w-[600px] h-[500px] bg-OffWhite sm:rounded-xl rounded-2xl sm:rounded-br-[40%] p-6">
+				<article className="w-full sm:w-[750px] h-[600px] bg-OffWhite sm:rounded-xl rounded-2xl sm:rounded-br-[40%] sm:p-6 p-2">
 					<form>
 						<fieldset className="flex w-full sm:w-[80%] items-center justify-center gap-2 p-4">
 							<label className="flex flex-col gap-2">
@@ -50,7 +85,6 @@ function App() {
 									id="DD"
 									maxLength={2}
 									placeholder="DD"
-									required
 									autoComplete="off"
 								/>
 								<p
@@ -73,7 +107,6 @@ function App() {
 									id="MM"
 									maxLength={2}
 									placeholder="MM"
-									required
 									autoComplete="off"
 								/>
 								<p
@@ -96,7 +129,6 @@ function App() {
 									id="YYYY"
 									maxLength={4}
 									placeholder="YYYY"
-									required
 									autoComplete="off"
 								/>
 								<p
