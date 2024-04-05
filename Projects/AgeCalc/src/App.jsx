@@ -1,6 +1,7 @@
 import submitImg from "./assets/icon-arrow.svg";
 import Output from "./Output";
 import { useState } from "react";
+import moment from "moment";
 
 function App() {
 	const [dayError, setDayError] = useState("Error Placeholder");
@@ -14,6 +15,10 @@ function App() {
 	const [dayHeaderView, setDayHeaderView] = useState("text-SmokeyGrey");
 	const [monthHeaderView, setMonthHeaderView] = useState("text-SmokeyGrey");
 	const [yearHeaderView, setYearHeaderView] = useState("text-SmokeyGrey");
+
+	let OutputDate = "- -";
+	let OutputMonth = "- -";
+	let OutputYear = "- -";
 
 	const formSubmitAction = (day, month, year) => {
 		console.log(day);
@@ -61,8 +66,23 @@ function App() {
 			setYearHeaderView("text-SmokeyGrey");
 		}
 
-		// Write for complete date, to see if it's valid or not
-		// Finally reset all error states and call the animated output
+		let result = moment(
+			`${day}/${month}/${year}`,
+			"DD/MM/YYYY",
+			true
+		).isValid();
+		if (!result) {
+			setDayError("Must be a valid date");
+			setDayErrorView("opacity-100");
+			setDayHeaderView("text-LightRed");
+		} else {
+			setDayError("Error Placeholder");
+			setDayErrorView("opacity-0");
+			setDayHeaderView("text-SmokeyGrey");
+			OutputDate = `${day}`;
+			OutputMonth = `${month}`;
+			OutputYear = `${year}`;
+		}
 	};
 
 	return (
@@ -156,7 +176,11 @@ function App() {
 							<section className="flex-grow bg bg-LightGrey h-[1.5px] sm:hidden"></section>
 						</section>
 					</form>
-					<Output />
+					<Output
+						day={OutputDate}
+						month={OutputMonth}
+						year={OutputYear}
+					/>
 				</article>
 			</article>
 		</>
