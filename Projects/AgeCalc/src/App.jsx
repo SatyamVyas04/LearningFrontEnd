@@ -1,7 +1,7 @@
 import submitImg from "./assets/icon-arrow.svg";
 import Output from "./Output";
 import { useState } from "react";
-import moment from "moment";
+import dayjs from "dayjs";
 
 function App() {
 	const [dayError, setDayError] = useState("Error Placeholder");
@@ -16,14 +16,15 @@ function App() {
 	const [monthHeaderView, setMonthHeaderView] = useState("text-SmokeyGrey");
 	const [yearHeaderView, setYearHeaderView] = useState("text-SmokeyGrey");
 
-	let OutputDate = "- -";
-	let OutputMonth = "- -";
-	let OutputYear = "- -";
+	const [OutputDate, setOutputDate] = useState("- -");
+	const [OutputMonth, setOutputMonth] = useState("- -");
+	const [OutputYear, setOutputYear] = useState("- -");
 
 	const formSubmitAction = (day, month, year) => {
-		console.log(day);
-		console.log(month);
-		console.log(year);
+		let dflag = false;
+		let mflag = false;
+		let yflag = false;
+
 		if (day === "") {
 			setDayError("This field is required");
 			setDayErrorView("opacity-100");
@@ -36,6 +37,7 @@ function App() {
 			setDayError("Error Placeholder");
 			setDayErrorView("opacity-0");
 			setDayHeaderView("text-SmokeyGrey");
+			dflag = true;
 		}
 
 		if (month === "") {
@@ -50,6 +52,7 @@ function App() {
 			setMonthError("Error Placeholder");
 			setMonthErrorView("opacity-0");
 			setMonthHeaderView("text-SmokeyGrey");
+			mflag = true;
 		}
 
 		if (year === "") {
@@ -64,24 +67,41 @@ function App() {
 			setYearError("Error Placeholder");
 			setYearErrorView("opacity-0");
 			setYearHeaderView("text-SmokeyGrey");
+			yflag = true;
 		}
 
-		let result = moment(
-			`${day}/${month}/${year}`,
+		let result = dayjs(
+			`${month}/${day}/${year}`,
 			"DD/MM/YYYY",
 			true
 		).isValid();
-		if (!result) {
-			setDayError("Must be a valid date");
-			setDayErrorView("opacity-100");
-			setDayHeaderView("text-LightRed");
-		} else {
-			setDayError("Error Placeholder");
-			setDayErrorView("opacity-0");
-			setDayHeaderView("text-SmokeyGrey");
-			OutputDate = `${day}`;
-			OutputMonth = `${month}`;
-			OutputYear = `${year}`;
+
+		if (dflag && mflag && yflag) {
+			if (!result) {
+				setDayError("Must be a valid date");
+				setDayErrorView("opacity-100");
+				setDayHeaderView("text-LightRed");
+			} else {
+				setDayError("Error Placeholder");
+				setDayErrorView("opacity-0");
+				setDayHeaderView("text-SmokeyGrey");
+
+				let dob = dayjs(`${month}/${day}/${year}`, "DD/MM/YYYY", true);
+				let today = dayjs();
+				let outputYears = today.diff(dob, "year");
+				let outputMonths = today.diff(
+					dob.add(outputYears, "year"),
+					"month"
+				);
+				let outputDays = today.diff(
+					dob.add(outputYears, "year").add(outputMonths, "month"),
+					"day"
+				);
+
+				setOutputYear(outputYears.toString().padStart(2, "0"));
+				setOutputMonth(outputMonths.toString().padStart(2, "0"));
+				setOutputDate(outputDays.toString().padStart(2, "0"));
+			}
 		}
 	};
 
