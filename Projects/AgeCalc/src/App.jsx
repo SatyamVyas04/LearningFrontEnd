@@ -20,12 +20,6 @@ function App() {
 	const [OutputMonth, setOutputMonth] = useState("- -");
 	const [OutputYear, setOutputYear] = useState("- -");
 
-	const handleKeyDown = (e) => {
-		if (e.keyCode === 13) {
-			alert("Enter key was pressed");
-		}
-	};
-
 	return (
 		<>
 			<article className="flex items-center justify-center w-dvw h-dvh bg-LightGrey">

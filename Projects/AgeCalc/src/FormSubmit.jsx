@@ -66,7 +66,11 @@ const formSubmitAction = (
 		yflag = true;
 	}
 
-	let result = dayjs(`${month}/${day}/${year}`, "DD/MM/YYYY", true).isValid();
+	function validate(date, format) {
+		return dayjs(date, format).format(format) === date;
+	}
+
+	let result = validate(`${year}/${month}/${day}`, "YYYY/MM/DD");
 
 	if (dflag && mflag && yflag) {
 		if (!result) {
