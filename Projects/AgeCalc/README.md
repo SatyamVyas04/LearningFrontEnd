@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
--   Github Pages : [Link](https://satyamvyas04.github.io/LearningFrontEnd/Projects/AgeCalc/dist/)
+-   Github Pages : [Link](https://satyamvyas04-agecalculator.vercel.app/)
 
 ## My process
 
