@@ -15,7 +15,10 @@ const formSubmitAction = (
 	setYearErrorView,
 	setDayHeaderView,
 	setMonthHeaderView,
-	setYearHeaderView
+	setYearHeaderView,
+	dayRef,
+	monthRef,
+	yearRef
 ) => {
 	let dflag = false;
 	let mflag = false;
@@ -25,10 +28,12 @@ const formSubmitAction = (
 		setDayError("This field is required");
 		setDayErrorView("opacity-100");
 		setDayHeaderView("text-LightRed");
+		dayRef.current.focus();
 	} else if (day > 31 || day < 1) {
 		setDayError("Must be a valid date");
 		setDayErrorView("opacity-100");
 		setDayHeaderView("text-LightRed");
+		dayRef.current.focus();
 	} else {
 		setDayError("Error Placeholder");
 		setDayErrorView("opacity-0");
@@ -40,10 +45,12 @@ const formSubmitAction = (
 		setMonthError("This field is required");
 		setMonthErrorView("opacity-100");
 		setMonthHeaderView("text-LightRed");
+		monthRef.current.focus();
 	} else if (month > 12 || month < 1) {
 		setMonthError("Must be a valid month");
 		setMonthErrorView("opacity-100");
 		setMonthHeaderView("text-LightRed");
+		monthRef.current.focus();
 	} else {
 		setMonthError("Error Placeholder");
 		setMonthErrorView("opacity-0");
@@ -55,10 +62,12 @@ const formSubmitAction = (
 		setYearError("This field is required");
 		setYearErrorView("opacity-100");
 		setYearHeaderView("text-LightRed");
+		yearRef.current.focus();
 	} else if (year > new Date().getFullYear()) {
 		setYearError("Must be in the past");
 		setYearErrorView("opacity-100");
 		setYearHeaderView("text-LightRed");
+		yearRef.current.focus();
 	} else {
 		setYearError("Error Placeholder");
 		setYearErrorView("opacity-0");
@@ -77,6 +86,7 @@ const formSubmitAction = (
 			setDayError("Must be a valid date");
 			setDayErrorView("opacity-100");
 			setDayHeaderView("text-LightRed");
+			dayRef.current.focus();
 		} else {
 			setDayError("Error Placeholder");
 			setDayErrorView("opacity-0");

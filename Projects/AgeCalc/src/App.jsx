@@ -33,6 +33,7 @@ function App() {
 					<form
 						onSubmit={(event) => {
 							event.preventDefault();
+							document.activeElement.blur();
 							formSubmitAction(
 								document.getElementById("DD").value,
 								document.getElementById("MM").value,
@@ -48,14 +49,17 @@ function App() {
 								setYearErrorView,
 								setDayHeaderView,
 								setMonthHeaderView,
-								setYearHeaderView
+								setYearHeaderView,
+								dayRef,
+								monthRef,
+								yearRef
 							);
 						}}
 					>
 						<fieldset className="flex w-full sm:w-[80%] items-center justify-center gap-2 p-4">
 							<label className="flex flex-col gap-2">
 								<p
-									className={`font-PoppinsBold ${dayHeaderView} text-xs sm:text-sm`}
+									className={`font-PoppinsBold ${dayHeaderView} text-xs sm:text-base`}
 								>
 									Day
 								</p>
@@ -86,7 +90,7 @@ function App() {
 							</label>
 							<label className="flex flex-col gap-2">
 								<p
-									className={`font-PoppinsBold ${monthHeaderView} text-xs sm:text-sm`}
+									className={`font-PoppinsBold ${monthHeaderView} text-xs sm:text-base`}
 								>
 									Month
 								</p>
@@ -117,7 +121,7 @@ function App() {
 							</label>
 							<label className="flex flex-col gap-2">
 								<p
-									className={`font-PoppinsBold ${yearHeaderView} text-xs sm:text-sm`}
+									className={`font-PoppinsBold ${yearHeaderView} text-xs sm:text-base`}
 								>
 									Year
 								</p>
@@ -153,7 +157,7 @@ function App() {
 							<button
 								type="submit"
 								ref={buttonRef}
-								className="p-4 rounded-full bg-Purple hover:bg-OffBlack focus:bg-OffBlack outline-none"
+								className="p-4 rounded-full bg-Purple hover:bg-OffBlack focus:bg-OffBlack"
 							>
 								<img src={submitImg} alt="SubmitButton" />
 							</button>
