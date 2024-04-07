@@ -2,6 +2,7 @@
 
 <h3 align='center'>Dynamic Projects</h3>
 <p align="center">
+  <a href = "https://satyamvyas04.github.io/LearningFrontEnd/Projects/AgeCalc/dist/"><img src = './ProjectImages/AgeCalculator.png' width='32%' alt='AgeCalculator'></a>
   <a href = "https://satyamvyas04.github.io/LearningFrontEnd/Projects/NewsLetter/"><img src = './ProjectImages/NewsLetter.png' width='32%' alt='NewsLetter'></a>
   <a href = "https://satyamvyas04.github.io/LearningFrontEnd/Projects/FAQ-Accordion/"><img src = './ProjectImages/FAQAccordian.png' width='32%' alt='3Columns'></a>
   <a href = "https://satyamvyas04.github.io/LearningFrontEnd/Projects/GSAPLoader/"><img src = './ProjectImages/GSPALoader.png' width='32%' alt='3Columns'></a>
