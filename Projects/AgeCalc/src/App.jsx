@@ -168,6 +168,9 @@ function App() {
 						day={OutputDate}
 						month={OutputMonth}
 						year={OutputYear}
+						OutputDateState={OutputDate}
+						OutputMonthState={OutputMonth}
+						OutputYearState={OutputYear}
 					/>
 				</article>
 			</article>
