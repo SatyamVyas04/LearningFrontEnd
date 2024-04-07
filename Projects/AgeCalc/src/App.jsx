@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Output from "./Output";
+import NextField from "./NextField";
 import formSubmitAction from "./FormSubmit";
 import submitImg from "./assets/icon-arrow.svg";
 
@@ -20,10 +21,15 @@ function App() {
 	const [OutputMonth, setOutputMonth] = useState("- -");
 	const [OutputYear, setOutputYear] = useState("- -");
 
+	const dayRef = useRef();
+	const monthRef = useRef();
+	const yearRef = useRef();
+	const buttonRef = useRef();
+
 	return (
 		<>
 			<article className="flex items-center justify-center w-dvw h-dvh bg-LightGrey">
-				<article className="w-full sm:w-[750px] h-[600px] bg-OffWhite sm:rounded-xl rounded-2xl sm:rounded-br-[40%] sm:p-6 p-2">
+				<article className="w-full sm:w-[720px] h-[550px] bg-OffWhite rounded-2xl rounded-br-[200px] sm:rounded-br-[300px] sm:p-6 p-2">
 					<form
 						onSubmit={(event) => {
 							event.preventDefault();
@@ -62,6 +68,15 @@ function App() {
 									maxLength={2}
 									placeholder="DD"
 									autoComplete="off"
+									ref={dayRef}
+									onChange={() => {
+										NextField({
+											data: document.getElementById("DD")
+												.value,
+											length: 2,
+											nextfieldref: monthRef,
+										});
+									}}
 								/>
 								<p
 									className={`font-PoppinsItalic text-LightRed text-[8px] sm:text-[12px] ${dayErrorView}`}
@@ -84,6 +99,15 @@ function App() {
 									maxLength={2}
 									placeholder="MM"
 									autoComplete="off"
+									ref={monthRef}
+									onChange={() => {
+										NextField({
+											data: document.getElementById("MM")
+												.value,
+											length: 2,
+											nextfieldref: yearRef,
+										});
+									}}
 								/>
 								<p
 									className={`font-PoppinsItalic text-LightRed text-[8px] sm:text-[12px] ${monthErrorView}`}
@@ -106,6 +130,16 @@ function App() {
 									maxLength={4}
 									placeholder="YYYY"
 									autoComplete="off"
+									ref={yearRef}
+									onChange={() => {
+										NextField({
+											data: document.getElementById(
+												"YYYY"
+											).value,
+											length: 4,
+											nextfieldref: buttonRef,
+										});
+									}}
 								/>
 								<p
 									className={`font-PoppinsItalic text-LightRed text-[8px] sm:text-[12px] ${yearErrorView}`}
@@ -118,7 +152,8 @@ function App() {
 							<section className="flex-grow bg bg-LightGrey h-[1.5px]"></section>
 							<button
 								type="submit"
-								className="p-4 rounded-full bg-Purple hover:bg-OffBlack"
+								ref={buttonRef}
+								className="p-4 rounded-full bg-Purple hover:bg-OffBlack focus:bg-OffBlack outline-none"
 							>
 								<img src={submitImg} alt="SubmitButton" />
 							</button>
