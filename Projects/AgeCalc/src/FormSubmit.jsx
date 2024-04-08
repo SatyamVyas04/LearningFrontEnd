@@ -104,9 +104,16 @@ const formSubmitAction = (
 				"day"
 			);
 
-			setOutputYear(outputYears.toString().padStart(2, "0"));
-			setOutputMonth(outputMonths.toString().padStart(2, "0"));
-			setOutputDate(outputDays.toString().padStart(2, "0"));
+			if (outputYears < 0 || outputMonths < 0 || outputDays < 0) {
+				setDayError("Must be a valid date");
+				setDayErrorView("opacity-100");
+				setDayHeaderView("text-LightRed");
+				dayRef.current.focus();
+			} else {
+				setOutputYear(outputYears.toString().padStart(2, "0"));
+				setOutputMonth(outputMonths.toString().padStart(2, "0"));
+				setOutputDate(outputDays.toString().padStart(2, "0"));
+			}
 		}
 	}
 };
