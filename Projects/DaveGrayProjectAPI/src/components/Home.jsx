@@ -1,13 +1,13 @@
 import AnimatedPage from "./AnimatedPage";
 
-function Comments() {
+function Home() {
 	return (
 		<AnimatedPage>
 			<div className="w-full flex items-center justify-center p-8 text-4xl">
-				Comments
+				Home
 			</div>
 		</AnimatedPage>
 	);
 }
 
-export default Comments;
+export default Home;

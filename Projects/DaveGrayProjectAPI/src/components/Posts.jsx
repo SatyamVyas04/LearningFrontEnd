@@ -1,5 +1,13 @@
+import AnimatedPage from "./AnimatedPage";
+
 function Posts() {
-	return <div>Posts</div>;
+	return (
+		<AnimatedPage>
+			<div className="w-full flex items-center justify-center p-8 text-4xl">
+				Posts
+			</div>
+		</AnimatedPage>
+	);
 }
 
 export default Posts;
