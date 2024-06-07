@@ -2,6 +2,7 @@
 
 <h3 align='center'>Dynamic Projects</h3>
 <p align="center">
+  <a href = "https://learning-react-dave-gray-challenge.vercel.app/"><img src = './ProjectImages/DaveGrayProject1.png' width='32%' alt='DaveGrayProject1'></a>
   <a href = "https://satyamvyas04-agecalculator.vercel.app/"><img src = './ProjectImages/AgeCalculator.png' width='32%' alt='AgeCalculator'></a>
   <a href = "https://satyamvyas04.github.io/LearningFrontEnd/Projects/NewsLetter/"><img src = './ProjectImages/NewsLetter.png' width='32%' alt='NewsLetter'></a>
   <a href = "https://satyamvyas04.github.io/LearningFrontEnd/Projects/FAQ-Accordion/"><img src = './ProjectImages/FAQAccordian.png' width='32%' alt='3Columns'></a>
@@ -53,6 +54,12 @@ The CSS Basics section focuses on Cascading Style Sheets (CSS), which is used to
 ### JS Basics
 
 The JS Basics section delves into JavaScript, a powerful programming language that adds interactivity and functionality to web pages. You'll find projects and exercises to help you understand JavaScript's core concepts. For guidance and additional learning materials on JavaScript, refer to [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and [FreeCodeCamp JavaScript Videos](https://www.freecodecamp.org/).
+
+### React
+
+This repository contains solutions to the challenges assigned by Dave Gray in his React 9hrs course. You can find my solutions deployed on [Vercel](https://learning-react-dave-gray-challenge.vercel.app/). A link to the course itself is provided below for your reference.
+
+[Link to Dave Gray's React 9hrs Course](https://www.youtube.com/watch?v=RVFAyFWO4go)
 
 ## Contributing
 
