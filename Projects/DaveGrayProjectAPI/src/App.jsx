@@ -9,7 +9,7 @@ import Comments from "./components/Comments";
 function App() {
 	let location = useLocation();
 	return (
-		<>
+		<main className="overflow-x-hidden">
 			<NavBar />
 			<AnimatePresence mode="wait">
 				<Routes location={location} key={location.pathname}>
@@ -19,7 +19,7 @@ function App() {
 					<Route path="/comments" element={<Comments />} />
 				</Routes>
 			</AnimatePresence>
-		</>
+		</main>
 	);
 }
 

@@ -1,12 +1,11 @@
 import { NavLink } from "react-router-dom";
 
-
 const NavBar = () => {
-	const pending = "bg-white text-black";
-	const active = "bg-black text-white";
+	const pending = "bg-zinc-900 text-emerald-500";
+	const active = "bg-emerald-500 text-zinc-900";
 
 	return (
-		<nav className="w-full border-2 border-black flex flex-row divide-x-2 divide-black items-center justify-evenly  flex-wrap">
+		<nav className="fixed top-0 w-full bg-zinc-900 border-b-2 border-emerald-500 text-emerald-500 font-semibold flex flex-row divide-x-2 divide-emerald-500 items-center justify-evenly  flex-wrap">
 			<NavLink
 				to="/users"
 				className={({ isActive, isPending }) =>
