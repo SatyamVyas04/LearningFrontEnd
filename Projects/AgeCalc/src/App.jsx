@@ -153,7 +153,7 @@ function App() {
 							</label>
 						</fieldset>
 						<section className="flex items-center sm:-mt-8 -mt-2">
-							<section className="flex-grow bg bg-LightGrey h-[1.5px]"></section>
+							<section className="flex-grow bg bg-LightGrey h-[1.5px]" />
 							<button
 								type="submit"
 								ref={buttonRef}
@@ -161,7 +161,7 @@ function App() {
 							>
 								<img src={submitImg} alt="SubmitButton" />
 							</button>
-							<section className="flex-grow bg bg-LightGrey h-[1.5px] sm:hidden"></section>
+							<section className="flex-grow bg bg-LightGrey h-[1.5px] sm:hidden" />
 						</section>
 					</form>
 					<Output
